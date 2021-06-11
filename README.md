@@ -5,7 +5,7 @@ I originally created this framework with the knowledge I got from reading DFIR b
 
 Please visit cheatsheet at the link below and good hunting!
 
-https://dfir-cheatsheet.github.io
+https://dfircheatsheet.github.io
 
 ### For Update Notifications
 Follow me on Twitter: @0xMohamedHassan - https://twitter.com/0xMohamedHassan   
