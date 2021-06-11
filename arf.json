@@ -1,0 +1,63 @@
+{
+  "children" :
+  [
+    {
+     "children" :
+      [
+      ],
+        "name": "Data Acquisition",
+        "type": "folder"
+    },
+    {
+     "children" :
+      [
+      ],
+        "name": "Operating Systems Analysis",
+        "type": "folder"
+    },
+    {
+     "children" :
+      [
+      ],
+        "name": "Apps Artifacts",
+        "type": "folder"
+    },
+    {
+     "children" :
+      [
+      ],
+        "name": "Memory Forensics",
+        "type": "folder"
+    },
+    {
+     "children" :
+      [
+      ],
+        "name": "Network Forensics",
+        "type": "folder"
+    },
+    {
+     "children" :
+      [
+      ],
+        "name": "Malicious Documents",
+        "type": "folder"
+    },
+    {
+     "children" :
+      [
+      ],
+        "name": "AIO Tools",
+        "type": "folder"
+    },
+    {
+     "children" :
+      [
+      ],
+        "name": "CheatSheets",
+        "type": "folder"
+    }
+  ],
+  "name": "DFIR CheatSheet",
+  "type": "folder"
+}
