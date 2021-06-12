@@ -1,7 +1,7 @@
 # DFIR CheatSheet
 Original website was created by <a href="https://twitter.com/jnordine">@jnordine</a> <a href="https://osintframework.com/">OSINT Framework</a> feel free to check it.
 ## Notes
-I originally created this framework with the knowledge I got from reading DFIR books. Please let me know about anything that might be missing!
+I originally created this cheatsheet with the knowledge I got from reading DFIR books, Other Cheatsheets and some technical experince . Please let me know about anything that might be missing!
 
 Please visit cheatsheet at the link below and good hunting!
 
