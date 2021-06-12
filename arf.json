@@ -12,10 +12,14 @@
           [
             {
               "name": "MFT"
-              "type": "text"
+              "type": "folder"
             }
           ],
-          "name": "Important Artifacts",
+          "name": "Disk",
+          "type": "folder"
+          }
+          {
+          "name": "Memory",
           "type": "folder"
           }
         ],
