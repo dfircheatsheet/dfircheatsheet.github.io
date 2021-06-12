@@ -11,6 +11,16 @@
                   "type": "url",
                   "url": "https://www.sciencedirect.com/topics/computer-science/master-file-table"
                 }
+                {
+                  "name": "Registry",
+                  "type": "url",
+                  "url": "https://docs.microsoft.com/en-us/windows/win32/sysinfo/registry-hives"
+                }
+                {
+                  "name": "Prefetch",
+                  "type": "url",
+                  "url": "https://forensicswiki.xyz/wiki/index.php?title=Prefetch#Registry_Keys"
+                }
               ],
               "name": "Disk",
               "type": "folder"
