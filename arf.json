@@ -7,9 +7,8 @@
             {
               "children": [
                 {
-                  "children": [],
                   "name": "MFT",
-                  "type": "folder"
+                  "type": "text"
                 }
               ],
               "name": "Disk",
