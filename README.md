@@ -9,7 +9,7 @@ https://dfircheatsheet.github.io
 
 ### For Update Notifications
 Follow me on Twitter: @0xMohamedHassan - https://twitter.com/0xMohamedHassan   
-Watch or star the project on Github: https://github.com/0xMohammed/dfir-cheatsheet
+Watch or star the project on Github: https://github.com/dfircheatsheet/dfircheatsheet.github.io
 
 ### Suggestions, Comments, Feedback
 Feedback or new tool suggestions are extremely welcome!  Please feel free to submit a pull request or open an issue on github or reach out on Twitter.
