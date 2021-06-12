@@ -7,6 +7,17 @@
         {
         "children" :
         [
+          {
+          "children" :
+          [
+            {
+              "name": "MFT"
+              "type": "text"
+            }
+          ],
+          "name": "Important Artifacts",
+          "type": "folder"
+          }
         ],
         "name": "Windows",
         "type": "folder"
