@@ -1,122 +1,94 @@
 {
-  "children" :
-  [
+  "children": [
     {
-     "children" :
-      [
+      "children": [
         {
-        "children" :
-        [
-          {
-          "children" :
-          [
+          "children": [
             {
-              "children" :
-              [
+              "children": [
+                {
+                  "children": [],
+                  "name": "MFT",
+                  "type": "folder"
+                }
               ],
-              "name": "MFT",
+              "name": "Disk",
+              "type": "folder"
+            },
+            {
+              "children": [],
+              "name": "Memory",
               "type": "folder"
             }
           ],
-          "name": "Disk",
+          "name": "Windows",
           "type": "folder"
-          }
-          {
-          "name": "Memory",
+        },
+        {
+          "children": [],
+          "name": "Linux",
           "type": "folder"
-          }
-        ],
-        "name": "Windows",
-        "type": "folder"
-        },
-        {
-        "children" :
-        [
-        ],
-        "name": "Linux",
-        "type": "folder"
         }
       ],
-        "name": "Data Acquisition",
-        "type": "folder"
+      "name": "Data Acquisition",
+      "type": "folder"
     },
     {
-     "children" :
-      [
+      "children": [
         {
-        "children" :
-        [
-        ],
-        "name": "Windows",
-        "type": "folder"
-        },
-
-        {
-        "children" :
-        [
-        ],
-        "name": "Linux",
-        "type": "folder"
-        }
-      ],
-        "name": "Operating Systems Analysis",
-        "type": "folder"
-    },
-    {
-     "children" :
-      [
-      ],
-        "name": "Apps Artifacts",
-        "type": "folder"
-    },
-    {
-     "children" :
-      [
-        {
-        "children" :
-        [
-        ],
-        "name": "Windows",
-        "type": "folder"
+          "children": [],
+          "name": "Windows",
+          "type": "folder"
         },
         {
-        "children" :
-        [
-        ],
-        "name": "Linux",
-        "type": "folder"
+          "children": [],
+          "name": "Linux",
+          "type": "folder"
         }
       ],
-        "name": "Memory Forensics",
-        "type": "folder"
+      "name": "Operating Systems Analysis",
+      "type": "folder"
     },
     {
-     "children" :
-      [
-      ],
-        "name": "Network Forensics",
-        "type": "folder"
+      "children": [],
+      "name": "Apps Artifacts",
+      "type": "folder"
     },
     {
-     "children" :
-      [
+      "children": [
+        {
+          "children": [],
+          "name": "Windows",
+          "type": "folder"
+        },
+        {
+          "children": [],
+          "name": "Linux",
+          "type": "folder"
+        }
       ],
-        "name": "Malicious Documents",
-        "type": "folder"
+      "name": "Memory Forensics",
+      "type": "folder"
     },
     {
-     "children" :
-      [
-      ],
-        "name": "AIO Tools",
-        "type": "folder"
+      "children": [],
+      "name": "Network Forensics",
+      "type": "folder"
     },
     {
-     "children" :
-      [
-      ],
-        "name": "CheatSheets",
-        "type": "folder"
+      "children": [],
+      "name": "Malicious Documents",
+      "type": "folder"
+    },
+    {
+      "children": [],
+      "name": "AIO Tools",
+      "type": "folder"
+    },
+    {
+      "children": [],
+      "name": "CheatSheets",
+      "type": "folder"
     }
   ],
   "name": "DFIR CheatSheet",
