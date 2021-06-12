@@ -13,3 +13,7 @@ Watch or star the project on Github: https://github.com/0xMohammed/dfir-cheatshe
 
 ### Suggestions, Comments, Feedback
 Feedback or new tool suggestions are extremely welcome!  Please feel free to submit a pull request or open an issue on github or reach out on Twitter.
+
+### Shout-Out
+<a href="https://twitter.com/xchatty">Simson Garfinkel</a> for <a href="https://forensicswiki.xyz/page/Main_Page">ForensicsWiki</a>
+<a href="https://twitter.com/Belkasoft">BelkaSoft</a>
