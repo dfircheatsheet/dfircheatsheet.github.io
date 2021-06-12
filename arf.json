@@ -11,7 +11,7 @@
           "children" :
           [
             {
-              "name": "MFT"
+              "name": "MFT",
               "type": "folder"
             }
           ],
