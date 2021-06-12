@@ -8,7 +8,7 @@
               "children": [
                 {
                   "name": "$MFT",
-                  "type": "url"
+                  "type": "url",
                   "url": "https://www.sciencedirect.com/topics/computer-science/master-file-table"
                 }
               ],
