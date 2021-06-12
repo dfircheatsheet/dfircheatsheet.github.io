@@ -4,6 +4,20 @@
     {
      "children" :
       [
+        {
+        "children" :
+        [
+        ],
+        "name": "Windows",
+        "type": "folder"
+        },
+        {
+        "children" :
+        [
+        ],
+        "name": "Linux",
+        "type": "folder"
+        }
       ],
         "name": "Data Acquisition",
         "type": "folder"
@@ -11,6 +25,21 @@
     {
      "children" :
       [
+        {
+        "children" :
+        [
+        ],
+        "name": "Windows",
+        "type": "folder"
+        },
+
+        {
+        "children" :
+        [
+        ],
+        "name": "Linux",
+        "type": "folder"
+        }
       ],
         "name": "Operating Systems Analysis",
         "type": "folder"
@@ -25,6 +54,20 @@
     {
      "children" :
       [
+        {
+        "children" :
+        [
+        ],
+        "name": "Windows",
+        "type": "folder"
+        },
+        {
+        "children" :
+        [
+        ],
+        "name": "Linux",
+        "type": "folder"
+        }
       ],
         "name": "Memory Forensics",
         "type": "folder"
