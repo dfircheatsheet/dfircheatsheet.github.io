@@ -76,7 +76,41 @@
       "type": "folder"
     },
     {
-      "children": [],
+      "children": 
+      [
+        {
+          "children":
+          [
+            {
+              "name":"Internet Explorer",
+              "type":"url",
+              "url":"https://forensicswiki.xyz/wiki/index.php?title=Internet_Explorer"
+            },
+            {
+              "name":"Mozilla Firefox",
+              "type":"url",
+              "url":"https://forensicswiki.xyz/wiki/index.php?title=Mozilla_Firefox"
+            },
+            {
+              "name":"Google Chrome",
+              "type":"url",
+              "url":"https://forensicswiki.xyz/wiki/index.php?title=Google_Chrome"
+            },
+            {
+              "name":"Apple Safari",
+              "type":"url",
+              "url":"https://forensicswiki.xyz/wiki/index.php?title=Apple_Safari"
+            },
+            {
+              "name":"Opera",
+              "type":"url",
+              "url":"https://forensicswiki.xyz/wiki/index.php?title=Opera"
+            }
+          ],
+          "name": "Web Browsers",
+          "type": "Folder"
+        }
+      ],
       "name": "Apps Artifacts",
       "type": "folder"
     },
