@@ -11,17 +11,27 @@
                     {
                       "name": "$MFT",
                       "type": "url",
-                      "url": "https://www.sciencedirect.com/topics/computer-science/master-file-table"
+                      "url": "https://forensicswiki.xyz/wiki/index.php?title=$MFT"
                     },
                     {
                       "name": "Registry",
                       "type": "url",
-                      "url": "https://docs.microsoft.com/en-us/windows/win32/sysinfo/registry-hives"
+                      "url": "https://forensicswiki.xyz/wiki/index.php?title=Windows_Registry"
                     },
                     {
                       "name": "Prefetch",
                       "type": "url",
                       "url": "https://forensicswiki.xyz/wiki/index.php?title=Prefetch#Registry_Keys"
+                    }
+                    {
+                      "name": "LNK",
+                      "type": "url",
+                      "url": "https://forensicswiki.xyz/wiki/index.php?title=LNK"
+                    }
+                    {
+                      "name": "JumpLists",
+                      "type": "url",
+                      "url": "https://forensicswiki.xyz/wiki/index.php?title=Jump_Lists"
                     }
                   ],
                   "name": "Important Artifacts",
