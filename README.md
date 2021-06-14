@@ -3,7 +3,7 @@ Original website was created by <a href="https://twitter.com/jnordine">@jnordine
 ## Notes
 I originally created this cheatsheet with the knowledge I got from reading DFIR books, Other Cheatsheets and some technical experince . Please let me know about anything that might be missing!
 
-Please visit cheatsheet at the link below and good hunting!
+Please visit cheatsheet at the link below.
 
 https://dfircheatsheet.github.io
 
