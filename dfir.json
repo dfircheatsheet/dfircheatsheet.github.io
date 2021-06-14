@@ -141,13 +141,38 @@
       "type": "folder"
     },
     {
-      "children": [],
+      "children": [
+        {
+          "children":
+          [
+            {
+              "name":"Autopsy",
+               "type":"url",
+               "url":"https://forensicswiki.xyz/wiki/index.php?title=Autopsy_Forensic_Browser"
+            }
+          ],
+          "name":"Free",
+          "type":"folder"
+        },
+        {
+          "children":
+          [
+            {
+              "name":"BelkaSoft",
+               "type":"url",
+               "url":"https://forensicswiki.xyz/wiki/index.php?title=Belkasoft_Evidence_Center"
+            }
+            {
+              "name":"Magnet Forensics",
+               "type":"url",
+               "url":"https://forensicswiki.xyz/wiki/index.php?title=Magnet_ACQUIRE"
+            }
+          ],
+          "name":"Commercial",
+          "type":"folder"
+        }
+      ],
       "name": "AIO Tools",
-      "type": "folder"
-    },
-    {
-      "children": [],
-      "name": "CheatSheets",
       "type": "folder"
     }
   ],
