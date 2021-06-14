@@ -9,6 +9,32 @@
                 {
                   "children": [
                     {
+                      "name": "AD1",
+                      "type": "url",
+                      "url": "https://support.accessdata.com/hc/en-us/articles/202930279-Best-Practice-Loose-Files-to-AD1"
+                    },
+                    {
+                      "name": "E01",
+                      "type": "url",
+                      "url": "https://forensicswiki.xyz/wiki/index.php?title=Encase_image_file_format"
+                    },
+                    {
+                      "name": "RAW",
+                      "type": "url",
+                      "url": "https://forensicswiki.xyz/wiki/index.php?title=Raw_Image_Format"
+                    },
+                    {
+                      "name": "AFF",
+                      "type": "url",
+                      "url": "https://forensicswiki.xyz/wiki/index.php?title=AFF"
+                    }
+                  ],
+                  "name": "Image formats",
+                  "type": "folder"
+                }
+                {
+                  "children": [
+                    {
                       "name": "$MFT",
                       "type": "url",
                       "url": "https://forensicswiki.xyz/wiki/index.php?title=$MFT"
