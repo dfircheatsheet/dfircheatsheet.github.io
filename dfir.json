@@ -73,7 +73,33 @@
     {
       "children": [
         {
-          "children": [],
+          "children": [
+            {
+              "name": "$MFT",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=$MFT"
+            },
+            {
+              "name": "Registry",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=Windows_Registry"
+            },
+            {
+              "name": "Prefetch",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=Prefetch#Registry_Keys"
+            },
+            {
+              "name": "LNK",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=LNK"
+            },
+            {
+              "name": "JumpLists",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=Jump_Lists"
+            }
+          ],
           "name": "Windows",
           "type": "folder"
         },
