@@ -93,17 +93,17 @@
               "children":
               [
                 {
-                  "name":"dr.fone (C)"
+                  "name":"dr.fone (C)",
                   "type":"url",
                   "url":"https://drfone.wondershare.com/"
                 },
                 {
-                  "name":"iPhone Backup Extractor (C)"
+                  "name":"iPhone Backup Extractor (C)",
                   "type":"url",
                   "url":"https://www.iphonebackupextractor.com/"
                 },
                 {
-                  "name":"Cellebrite UFED iOS (C)"
+                  "name":"Cellebrite UFED iOS (C)",
                   "type":"url",
                   "url":"https://www.cellebrite.com/en/ufed-unlock-iphone-x/"
                 }
@@ -119,12 +119,12 @@
           "children": 
           [
             {
-              "name":"MobiKin Doctor (C)"
+              "name":"MobiKin Doctor (C)",
               "type":"url",
               "url":"https://www.mobikin.com/doctor-for-android/"
             },
             {
-              "name":"Android Debug Bridge 'ADB'"
+              "name":"Android Debug Bridge 'ADB'",
               "type":"url",
               "url":""
             }
