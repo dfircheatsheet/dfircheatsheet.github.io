@@ -3,17 +3,8 @@
     {
       "children": [
         {
-          "children": [
-            {
-              "children": [],
-              "name": "Disk",
-              "type": "folder"
-            },
-            {
-              "children": [],
-              "name": "Memory",
-              "type": "folder"
-            }
+          "children": 
+          [
           ],
           "name": "Windows",
           "type": "folder"
