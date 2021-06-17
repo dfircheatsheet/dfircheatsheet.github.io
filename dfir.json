@@ -119,14 +119,21 @@
           "children": 
           [
             {
-              "name":"MobiKin Doctor (C)",
-              "type":"url",
-              "url":"https://www.mobikin.com/doctor-for-android/"
-            },
-            {
-              "name":"Android Debug Bridge 'ADB'",
-              "type":"url",
-              "url":""
+              "children":
+              [
+                {
+                  "name":"MobiKin Doctor (C)",
+                  "type":"url",
+                  "url":"https://www.mobikin.com/doctor-for-android/"
+                },
+                {
+                  "name":"Android Debug Bridge 'ADB'",
+                   "type":"url",
+                    "url":""
+                }
+              ],
+              "name":"Tools",
+              "type":"Folder
             }
           ],
           "name": "Android",
