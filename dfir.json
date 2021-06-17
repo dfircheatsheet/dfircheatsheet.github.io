@@ -91,6 +91,7 @@
             {
               "children":
               [
+                {
                  "children": [
                     {
                       "name": "$MFT",
@@ -117,6 +118,7 @@
                       "type": "url",
                       "url": "https://forensicswiki.xyz/wiki/index.php?title=Jump_Lists"
                     }
+                }
               ],
               "name":"Quick Win",
               "type":"folder"
