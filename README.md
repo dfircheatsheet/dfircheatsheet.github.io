@@ -1,7 +1,7 @@
 # DFIR Cheat Sheet
 visit cheat sheet at the link below. 
 https://dfircheatsheet.github.io
-## Notes
+## Tips
 * Do not rely on one tool
 * Understand every tools you are using
 * Start your investigation with QuickWin artifacts
