@@ -5,6 +5,11 @@
         {
           "children": 
           [
+            {
+              "name":"FTKImager",
+              "type":"url",
+              "url":"https://accessdata.com/product-download/ftk-imager-version-4-5"
+            }
           ],
           "name": "Windows",
           "type": "folder"
