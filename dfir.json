@@ -49,9 +49,14 @@
               "url": "https://www.mobikin.com/doctor-for-android/"
             },
             {
+              "name": "Andriller",
+              "type": "url",
+              "url": "https://github.com/den4uk/andriller"
+            },
+            {
               "name": "Android Debug Bridge 'ADB'",
               "type": "url",
-              "url": ""
+              "url": "https://www.youtube.com/watch?v=KKkvkCgMeMA"
             }
           ],
           "name": "Android",
