@@ -31,25 +31,19 @@
         {
           "children": [
             {
-              "children": [
-                {
-                  "name": "dr.fone (C)",
-                  "type": "url",
-                  "url": "https://drfone.wondershare.com/"
-                },
-                {
-                  "name": "iPhone Backup Extractor (C)",
-                  "type": "url",
-                  "url": "https://www.iphonebackupextractor.com/"
-                },
-                {
-                  "name": "Cellebrite UFED iOS (C)",
-                  "type": "url",
-                  "url": "https://www.cellebrite.com/en/ufed-unlock-iphone-x/"
-                }
-              ],
-              "name": "Tools",
-              "type": "folder"
+              "name": "dr.fone (C)",
+              "type": "url",
+              "url": "https://drfone.wondershare.com/"
+            },
+            {
+              "name": "iPhone Backup Extractor (C)",
+              "type": "url",
+              "url": "https://www.iphonebackupextractor.com/"
+            },
+            {
+              "name": "Cellebrite UFED iOS (C)",
+              "type": "url",
+              "url": "https://www.cellebrite.com/en/ufed-unlock-iphone-x/"
             }
           ],
           "name": "IOS",
@@ -58,20 +52,14 @@
         {
           "children": [
             {
-              "children": [
-                {
-                  "name": "MobiKin Doctor (C)",
-                  "type": "url",
-                  "url": "https://www.mobikin.com/doctor-for-android/"
-                },
-                {
-                  "name": "Android Debug Bridge 'ADB'",
-                  "type": "url",
-                  "url": ""
-                }
-              ],
-              "name": "Tools",
-              "type": "Folder"
+              "name": "MobiKin Doctor (C)",
+              "type": "url",
+              "url": "https://www.mobikin.com/doctor-for-android/"
+            },
+            {
+              "name": "Android Debug Bridge 'ADB'",
+              "type": "url",
+              "url": ""
             }
           ],
           "name": "Android",
@@ -84,39 +72,7 @@
     {
       "children": [
         {
-          "children": [
-            {
-              "children": [
-                {
-                  "name": "$MFT",
-                  "type": "url",
-                  "url": "https://forensicswiki.xyz/wiki/index.php?title=$MFT"
-                },
-                {
-                  "name": "Registry",
-                  "type": "url",
-                  "url": "https://forensicswiki.xyz/wiki/index.php?title=Windows_Registry"
-                },
-                {
-                  "name": "Prefetch",
-                  "type": "url",
-                  "url": "https://forensicswiki.xyz/wiki/index.php?title=Prefetch#Registry_Keys"
-                },
-                {
-                  "name": "LNK",
-                  "type": "url",
-                  "url": "https://forensicswiki.xyz/wiki/index.php?title=LNK"
-                },
-                {
-                  "name": "JumpLists",
-                  "type": "url",
-                  "url": "https://forensicswiki.xyz/wiki/index.php?title=Jump_Lists"
-                }
-              ],
-              "name": "Quick Win",
-              "type": "folder"
-            }
-          ],
+          "children": [],
           "name": "Windows",
           "type": "folder"
         },
@@ -136,13 +92,7 @@
           "type": "folder"
         },
         {
-          "children": [
-            {
-              "children": [],
-              "name": "Quick Win",
-              "type": "folder"
-            }
-          ],
+          "children": [],
           "name": "IOS",
           "type": "folder"
         }
