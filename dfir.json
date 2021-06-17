@@ -128,12 +128,12 @@
                 },
                 {
                   "name":"Android Debug Bridge 'ADB'",
-                   "type":"url",
-                    "url":""
+                  "type":"url",
+                  "url":""
                 }
               ],
               "name":"Tools",
-              "type":"Folder
+              "type":"Folder"
             }
           ],
           "name": "Android",
