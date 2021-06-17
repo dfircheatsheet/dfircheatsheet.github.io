@@ -3,6 +3,7 @@ visit cheat sheet at the link below.
 https://dfircheatsheet.github.io
 ## Notes
 * Do not rely on one tool
+* Understand every tools you are using
 ### For Update Notifications
 Follow me on Twitter: @0xMohamedHassan - https://twitter.com/0xMohamedHassan   
 Watch or star the project on Github: https://github.com/dfircheatsheet/dfircheatsheet.github.io
