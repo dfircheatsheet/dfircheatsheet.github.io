@@ -25,6 +25,15 @@ body {
   color: #000;
 }
 
+.legend2 {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 330px;
+  font-size: 11px;
+  color: #000;
+}
+
 .node {
   cursor: pointer;
 }
