@@ -185,6 +185,11 @@
           ],
           "name": "Web Browsers",
           "type": "Folder"
+        },
+        {
+          "children":[],
+          "name":"E-mail",
+          "type":"folder"
         }
       ],
       "name": "Apps Artifacts",
