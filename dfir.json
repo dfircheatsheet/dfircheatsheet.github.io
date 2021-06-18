@@ -15,6 +15,11 @@
               "type":"url",
               "url":"https://github.com/thimbleweed/All-In-USB/tree/master/utilities/DumpIt"
             }
+            {
+              "name":"Ram Capturer (M)",
+              "type":"url",
+              "url":"https://belkasoft.com/ram-capturer"
+            }
           ],
           "name": "Windows",
           "type": "folder"
