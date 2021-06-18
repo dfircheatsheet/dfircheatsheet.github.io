@@ -9,6 +9,11 @@
               "name":"FTKImager (M)(D)",
               "type":"url",
               "url":"https://accessdata.com/product-download/ftk-imager-version-4-5"
+            },
+            {
+              "name":"DumpIt (M)",
+              "type":"url",
+              "url":"https://github.com/thimbleweed/All-In-USB/tree/master/utilities/DumpIt"
             }
           ],
           "name": "Windows",
