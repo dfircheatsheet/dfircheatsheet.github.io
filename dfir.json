@@ -3,22 +3,21 @@
     {
       "children": [
         {
-          "children": 
-          [
+          "children": [
             {
-              "name":"FTKImager (M)(D)",
-              "type":"url",
-              "url":"https://accessdata.com/product-download/ftk-imager-version-4-5"
+              "name": "FTKImager (M)(D)",
+              "type": "url",
+              "url": "https://accessdata.com/product-download/ftk-imager-version-4-5"
             },
             {
-              "name":"DumpIt (M)",
-              "type":"url",
-              "url":"https://github.com/thimbleweed/All-In-USB/tree/master/utilities/DumpIt"
-            }
+              "name": "DumpIt (M)",
+              "type": "url",
+              "url": "https://github.com/thimbleweed/All-In-USB/tree/master/utilities/DumpIt"
+            },
             {
-              "name":"Ram Capturer (M)",
-              "type":"url",
-              "url":"https://belkasoft.com/ram-capturer"
+              "name": "Ram Capturer (M)",
+              "type": "url",
+              "url": "https://belkasoft.com/ram-capturer"
             }
           ],
           "name": "Windows",
@@ -30,22 +29,21 @@
           "type": "folder"
         },
         {
-          "children": 
-          [
+          "children": [
             {
-              "name":"OSXPmem (M)",
-              "type":"url",
-              "url":"https://code.google.com/archive/p/pmem/wikis/OSXPmem.wiki"
+              "name": "OSXPmem (M)",
+              "type": "url",
+              "url": "https://code.google.com/archive/p/pmem/wikis/OSXPmem.wiki"
             },
             {
-              "name":"Cellebrite Digital Collector (M)(D)(C)",
-              "type":"url",
-              "url":"https://www.cellebrite.com/en/digital-collector/"
+              "name": "Cellebrite Digital Collector (M)(D)(C)",
+              "type": "url",
+              "url": "https://www.cellebrite.com/en/digital-collector/"
             },
             {
-              "name":"Recon ITR (M)(D)(C)",
-              "type":"url",
-              "url":"https://sumuri.com/software/recon-itr/"
+              "name": "Recon ITR (M)(D)(C)",
+              "type": "url",
+              "url": "https://sumuri.com/software/recon-itr/"
             }
           ],
           "name": "MAC",
@@ -131,9 +129,7 @@
           "type": "folder"
         },
         {
-          "children": 
-          [
-          ],
+          "children": [],
           "name": "Linux",
           "type": "folder"
         },
@@ -190,9 +186,9 @@
           "type": "Folder"
         },
         {
-          "children":[],
-          "name":"E-mail",
-          "type":"folder"
+          "children": [],
+          "name": "E-mail",
+          "type": "folder"
         }
       ],
       "name": "Apps Artifacts",
@@ -251,16 +247,20 @@
       "type": "folder"
     },
     {
-      "children":
-      [
+      "children": [
         {
-          "name":"MAGNET Encrypted Disk Detector",
+          "name": "MAGNET Encrypted Disk Detector",
+          "type": "url",
+          "url": "https://www.magnetforensics.com/resources/encrypted-disk-detector/"
+        },
+        {
+          "name": "VeraCrypt",
           "type":"url",
-          "url":"https://www.magnetforensics.com/resources/encrypted-disk-detector/"
+          "url":"https://www.veracrypt.fr/en/Home.html"
         }
       ],
-      "name":"misc",
-      "type":"folder"
+      "name": "misc",
+      "type": "folder"
     }
   ],
   "name": "DFIR CheatSheet",
