@@ -70,8 +70,7 @@
             }
           ],
           "name": "IOS",
-          "type": "folder",
-          "url": "https://forensicswiki.xyz/wiki/index.php?title=Apple_iPhone"
+          "type": "folder"
         },
         {
           "children": [
@@ -151,8 +150,7 @@
         {
           "children": [],
           "name": "IOS",
-          "type": "folder",
-          "url": "https://forensicswiki.xyz/wiki/index.php?title=IOS"
+          "type": "folder"
         }
       ],
       "name": "Operating Systems Analysis",
@@ -251,9 +249,20 @@
       ],
       "name": "AIO Tools",
       "type": "folder"
+    },
+    {
+      "children":
+      [
+        {
+          "name":"MAGNET Encrypted Disk Detector",
+          "type":"url",
+          "url":"https://www.magnetforensics.com/resources/encrypted-disk-detector/"
+        }
+      ],
+      "name":"misc",
+      "type":"folder"
     }
   ],
   "name": "DFIR CheatSheet",
-  "type": "folder",
-  "url": "https://dfircheatsheet.github.io/"
+  "type": "folder"
 }
