@@ -122,12 +122,12 @@
         {
           "children": [
             {
-              "name": "FTKImager",
+              "name": "FTKImager (Windows)",
               "type": "url",
               "url": "https://accessdata.com/product-download/ftk-imager-version-4-5"
             },
             {
-              "name": "Mount Imager Pro",
+              "name": "Mount Imager Pro (Windows)",
               "type": "url",
               "url": "https://getdataforensics.com/product/mount-image-pro/"
             }
