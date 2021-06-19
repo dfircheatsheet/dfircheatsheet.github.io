@@ -38,6 +38,11 @@
                       "name": "Ram Capturer (M)",
                       "type": "url",
                       "url": "https://belkasoft.com/ram-capturer"
+                    },
+                    {
+                      "name": "KAPE",
+                      "type": "url",
+                      "url": "https://www.kroll.com/en/insights/publications/cyber/kroll-artifact-parser-extractor-kape"
                     }
                   ],
                   "name": "Acquisition Tools",
@@ -149,19 +154,9 @@
         {
           "children": [
             {
-              "name": "$MFT",
-              "type": "url",
-              "url": "https://forensicswiki.xyz/wiki/index.php?title=$MFT"
-            },
-            {
               "name": "Registry",
               "type": "url",
               "url": "https://forensicswiki.xyz/wiki/index.php?title=Windows_Registry"
-            },
-            {
-              "name": "Prefetch",
-              "type": "url",
-              "url": "https://forensicswiki.xyz/wiki/index.php?title=Prefetch#Registry_Keys"
             },
             {
               "name": "LNK",
@@ -172,6 +167,41 @@
               "name": "JumpLists",
               "type": "url",
               "url": "https://forensicswiki.xyz/wiki/index.php?title=Jump_Lists"
+            },
+            {
+              "name": "Prefetch",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=Prefetch#Registry_Keys"
+            },
+            {
+              "name": "Windows Event Logs",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=Windows_XML_Event_Log_(EVTX)"
+            },
+            {
+              "name": "Recycle Bin",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=Windows#Recycle_Bin"
+            },
+            {
+              "name": "$MFT",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=$MFT"
+            },
+            {
+              "name": "$Log & $UsnJrnl",
+              "type": "url",
+              "url": "https://sites.google.com/site/forensicnote/ntfs-log-tracker"
+            },
+            {
+              "name": "Pagfile.sys",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=Pagefile.sys"
+            },
+            {
+              "name": "Hiberfil.sys",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=Hiberfil.sys"
             }
           ],
           "name": "Windows",
@@ -285,11 +315,6 @@
           "name": "Magnet Forensics (C)",
           "type": "url",
           "url": "https://forensicswiki.xyz/wiki/index.php?title=Magnet_ACQUIRE"
-        },
-        {
-          "name": "KAPE",
-          "type": "url",
-          "url": "https://www.kroll.com/en/insights/publications/cyber/kroll-artifact-parser-extractor-kape"
         }
       ],
       "name": "AIO Tools",
