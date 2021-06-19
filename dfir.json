@@ -130,6 +130,11 @@
               "name": "Mount Imager Pro (Windows) (C)",
               "type": "url",
               "url": "https://getdataforensics.com/product/mount-image-pro/"
+            },
+            {
+              "name": "Arsenal Image Mounter v3.4.141 (Windows)",
+              "type": "url",
+              "url": "https://arsenalrecon.com/downloads/"
             }
           ],
           "name": "Mounting Tools",
