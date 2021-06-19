@@ -5,19 +5,52 @@
         {
           "children": [
             {
-              "name": "FTKImager (M)(D)",
-              "type": "url",
-              "url": "https://accessdata.com/product-download/ftk-imager-version-4-5"
+              "children": [
+                {
+                  "name": "MAGNET Encrypted Disk Detector",
+                  "type": "url",
+                  "url": "https://www.magnetforensics.com/resources/encrypted-disk-detector/"
+                },
+                {
+                  "name": "VeraCrypt",
+                  "type": "url",
+                  "url": "https://www.veracrypt.fr/en/Home.html"
+                }
+              ],
+              "name": "Encryption Detection",
+              "type": "folder"
             },
             {
-              "name": "DumpIt (M)",
-              "type": "url",
-              "url": "https://github.com/thimbleweed/All-In-USB/tree/master/utilities/DumpIt"
+              "children": [
+                {
+                  "name": "FTKImager (M)(D)",
+                  "type": "url",
+                  "url": "https://accessdata.com/product-download/ftk-imager-version-4-5"
+                },
+                {
+                  "name": "DumpIt (M)",
+                  "type": "url",
+                  "url": "https://github.com/thimbleweed/All-In-USB/tree/master/utilities/DumpIt"
+                },
+                {
+                  "name": "Ram Capturer (M)",
+                  "type": "url",
+                  "url": "https://belkasoft.com/ram-capturer"
+                }
+              ],
+              "name": "Acquisition Tools",
+              "type": "folder"
             },
             {
-              "name": "Ram Capturer (M)",
-              "type": "url",
-              "url": "https://belkasoft.com/ram-capturer"
+              "children": [
+                {
+                  "name": "FTKImager (D)",
+                  "type": "url",
+                  "url": "https://accessdata.com/product-download/ftk-imager-version-4-5"
+                }
+              ],
+              "name": "Disk Mounting tools",
+              "type": "folder"
             }
           ],
           "name": "Windows",
@@ -244,22 +277,6 @@
         }
       ],
       "name": "AIO Tools",
-      "type": "folder"
-    },
-    {
-      "children": [
-        {
-          "name": "MAGNET Encrypted Disk Detector",
-          "type": "url",
-          "url": "https://www.magnetforensics.com/resources/encrypted-disk-detector/"
-        },
-        {
-          "name": "VeraCrypt",
-          "type":"url",
-          "url":"https://www.veracrypt.fr/en/Home.html"
-        }
-      ],
-      "name": "misc",
       "type": "folder"
     }
   ],
