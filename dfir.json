@@ -194,6 +194,11 @@
               "url": "https://sites.google.com/site/forensicnote/ntfs-log-tracker"
             },
             {
+              "name": "NTFS artifacts",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=New_Technology_File_System_(NTFS)"
+            },
+            {
               "name": "Pagfile.sys",
               "type": "url",
               "url": "https://forensicswiki.xyz/wiki/index.php?title=Pagefile.sys"
