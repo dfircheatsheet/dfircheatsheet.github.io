@@ -207,6 +207,11 @@
               "name": "Hiberfil.sys",
               "type": "url",
               "url": "https://forensicswiki.xyz/wiki/index.php?title=Hiberfil.sys"
+            },
+            {
+              "name": "Volume Shadow Copy",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=Windows_Shadow_Volumes"
             }
           ],
           "name": "Windows",
