@@ -38,11 +38,6 @@
                       "name": "Ram Capturer (M)",
                       "type": "url",
                       "url": "https://belkasoft.com/ram-capturer"
-                    },
-                    {
-                      "name": "KAPE",
-                      "type": "url",
-                      "url": "https://www.kroll.com/en/insights/publications/cyber/kroll-artifact-parser-extractor-kape"
                     }
                   ],
                   "name": "Acquisition Tools",
@@ -316,6 +311,11 @@
           "type": "url",
           "url": "https://www.sleuthkit.org/autopsy/"
         },
+        {
+          "name": "KAPE",
+          "type": "url",
+          "url": "https://www.kroll.com/en/insights/publications/cyber/kroll-artifact-parser-extractor-kape"
+        }
         {
           "name": "BelkaSoft (C)",
           "type": "url",
