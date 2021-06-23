@@ -329,6 +329,33 @@
       ],
       "name": "AIO Tools",
       "type": "folder"
+    },
+    {
+      "children":
+      [
+        {
+          "children":
+          [
+            {
+              "name":"F-response",
+              "type":"url",
+              "url":"https://www.f-response.com/"
+            }
+          ],
+          "name":"Network acquisition",
+          "type":"folder"
+        },
+        {
+          "children":
+          [
+            
+          ],
+          "name":"Cloud Storages"
+          "type":"folder"
+        }
+      ],
+      "name":"MISC",
+      "type":"folder"
     }
   ],
   "name": "DFIR CheatSheet",
