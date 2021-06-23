@@ -127,17 +127,20 @@
               "type": "folder"
             },
             {
-              "children":[
+              "children": [
                 {
-                  "name":"F-response (C)",
-                  "url":"https://www.f-response.com/",
+                  "name": "F-response (C)",
+                  "type": "url",
+                  "url": "https://www.f-response.com/"
                 },
                 {
-                  "name":"CyberDuck",
-                  "url":"https://cyberduck.io/",
+                  "name": "CyberDuck",
+                  "type": "url",
+                  "url": "https://cyberduck.io/"
                 }
               ],
-              "name":"Cloud"
+              "name": "Cloud",
+              "type": "folder"
             }
           ],
           "name": "Acquisition tools",
