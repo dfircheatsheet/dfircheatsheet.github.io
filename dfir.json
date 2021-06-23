@@ -123,8 +123,13 @@
                   "url": "https://www.f-response.com/"
                 }
               ],
-              "name": "Network acquisition",
+              "name": "Network",
               "type": "folder"
+            },
+            {
+              "children":[
+              ],
+              "name":"Cloud"
             }
           ],
           "name": "Acquisition tools",
