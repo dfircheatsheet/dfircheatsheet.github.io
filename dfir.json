@@ -118,7 +118,7 @@
             {
               "children": [
                 {
-                  "name": "F-response",
+                  "name": "F-response (C)",
                   "type": "url",
                   "url": "https://www.f-response.com/"
                 }
@@ -128,6 +128,14 @@
             },
             {
               "children":[
+                {
+                  "name":"F-response (C)",
+                  "url":"https://www.f-response.com/",
+                },
+                {
+                  "name":"CyberDuck",
+                  "url":"https://cyberduck.io/",
+                }
               ],
               "name":"Cloud"
             }
