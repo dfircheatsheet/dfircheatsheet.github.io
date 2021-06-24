@@ -240,7 +240,14 @@
           "type": "folder"
         },
         {
-          "children": [],
+          "children": 
+          [
+            {
+              "name":"Logs",
+              "type":"url",
+              "url":"https://forensicswiki.xyz/wiki/index.php?title=Linux_logs_analysis"
+            }
+          ],
           "name": "Linux",
           "type": "folder"
         },
