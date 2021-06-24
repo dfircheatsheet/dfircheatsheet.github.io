@@ -176,9 +176,20 @@
         {
           "children": [
             {
+              "children": [
+                {
+                  "name": "Locations and Structure",
+                  "type": "url",
+                  "url": "https://forensicswiki.xyz/wiki/index.php?title=Windows_Registry"
+                },
+                {
+                  "name": "Analysis Cheat Sheet",
+                  "type": "url",
+                  "url": "https://www.dfir.training/ultimate-registry-forensics-cheat-sheet"
+                }
+              ],
               "name": "Registry",
-              "type": "url",
-              "url": "https://forensicswiki.xyz/wiki/index.php?title=Windows_Registry"
+              "type": "folder"
             },
             {
               "name": "LNK",
@@ -198,7 +209,7 @@
             {
               "name": "Windows Event Logs",
               "type": "url",
-              "url": "https://forensicswiki.xyz/wiki/index.php?title=Windows_XML_Event_Log_(EVTX)"
+              "url": "https://www.andreafortuna.org/2019/06/12/windows-security-event-logs-my-own-cheatsheet/"
             },
             {
               "name": "Recycle Bin",
@@ -240,12 +251,51 @@
           "type": "folder"
         },
         {
-          "children": 
-          [
+          "children": [
             {
-              "name":"Logs",
-              "type":"url",
-              "url":"https://forensicswiki.xyz/wiki/index.php?title=Linux_logs_analysis"
+              "name": "Linux Version",
+              "type": "url",
+              "url": "https://linuxize.com/post/how-to-check-linux-version/"
+            },
+            {
+              "name": "Installation time",
+              "type": "url",
+              "url": "https://ostechnix.com/find-exact-installation-date-time-linux-os/"
+            },
+            {
+              "name": "Hostname",
+              "type": "url",
+              "url": "https://ostechnix.com/how-to-find-hostname-in-linux/"
+            },
+            {
+              "name": "Network Configurations",
+              "type": "url",
+              "url": "http://www.yolinux.com/TUTORIALS/LinuxTutorialNetworking.html"
+            },
+            {
+              "name": "TimeZone",
+              "type": "url",
+              "url": "https://linuxize.com/post/how-to-set-or-change-timezone-in-linux/"
+            },
+            {
+              "name": "User Configurations",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=Linux_user_accounts"
+            },
+            {
+              "name": "Presistance Techniques",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=Linux_Presistance_Techniques"
+            },
+            {
+              "name": "Recently Modified Files",
+              "type": "url",
+              "url": "https://www.baeldung.com/linux/recently-changed-files"
+            },
+            {
+              "name": "Logs",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=Linux_logs_analysis"
             }
           ],
           "name": "Linux",
