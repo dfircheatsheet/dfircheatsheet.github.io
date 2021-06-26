@@ -296,6 +296,11 @@
               "name": "Logs",
               "type": "url",
               "url": "https://forensicswiki.xyz/wiki/index.php?title=Linux_logs_analysis"
+            },
+            {
+              "name": "File recovery",
+              "type": "url",
+              "url": "https://forensicswiki.xyz/wiki/index.php?title=Linux_file_recovery"
             }
           ],
           "name": "Linux",
