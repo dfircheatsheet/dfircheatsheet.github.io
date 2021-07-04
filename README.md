@@ -1,3 +1,3 @@
 # DFIR Cheat Sheet
-visit cheat sheet at the link below. 
+visit cheat sheet at 
 https://dfircheatsheet.github.io
