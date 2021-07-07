@@ -4,4 +4,4 @@
 
 * NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\SearchHistory
 
-* \Users\\<USER>\AppData\Local\Microsoft\Windows\ConnectedSearch\History
+* \Users\{USER}\AppData\Local\Microsoft\Windows\ConnectedSearch\History
