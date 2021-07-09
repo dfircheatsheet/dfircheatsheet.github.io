@@ -1,5 +1,5 @@
-==Registry==
-* https://df-stream.com/2017/10/recentapps/
+# Lnk files
+* https://www.dfir.training/fa-windows/798-lnk
 
-==JumpLists==
+# JumpLists
 * https://forensicswiki.xyz/wiki/index.php?title=Jump_Lists
