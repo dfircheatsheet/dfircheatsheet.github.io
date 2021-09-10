@@ -11,3 +11,5 @@
 ## Artifacts Location
 * %USERPROFILE%\Documents\Outlook
 * %USERPROFILE%\AppData\Local\Microsoft\Outlook
+* %APPDATA%\Local\Microsoft\Windows\Tempora:cy Inte:cnet Files\Content.Outlook
+* %APPDATA%\Local\Microsoft\Windows\INetCache\Content.Outlook
