@@ -1,4 +1,5 @@
-* ## <a href="https://forensicswiki.xyz/wiki/index.php?title=Windows_Registry">Windows Registry Analysis</a>* Outlook 2007 Account Passwords: NTUSER.DAT\Software\Microsoft\Protected Storage SystemProvider\SID\Identification\INETCOMM Server Passwords
+* ## <a href="https://forensicswiki.xyz/wiki/index.php?title=Windows_Registry">Windows Registry Analysis</a>
+* Outlook 2007 Account Passwords: NTUSER.DAT\Software\Microsoft\Protected Storage SystemProvider\SID\Identification\INETCOMM Server Passwords
 * Outlook 2007 Recent Attachments: NTUSER.DAT\Software\Microsoft\office\version\Common\Open Find\Microsoft Office Outlook\Settings\Save Attachment\File Name MRU
 * Outlook 2007 Temp file location: NTUSER.DAT\Software\Microsoft\Office\version\Outlook\Security
 * Outlook Account Passwords: NTUSER.DAT\Software\Microsoft\ Protected Storage System Provider\SID\ Identification\INETCOMM Server Passwords
