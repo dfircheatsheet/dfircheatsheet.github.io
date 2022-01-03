@@ -8,6 +8,7 @@
    * <a href="https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4779">4779 - Session Disconnected</a>
    * 1 - Kernel-General 1 - The system time has changed
    * <a href="https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=4616">4616 - System time was changed (Security log)</a>
+
 ### Notes
    * Windows does not reliably record logoffs (ID 4634) so also look for ID 4647 -> user initiated logoff for interactive logons
    * Logon events not recorded when backdoors, exploited services, or similar malicious means are used to access a system
