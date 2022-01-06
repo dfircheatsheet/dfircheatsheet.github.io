@@ -1,3 +1,4 @@
 * [IE forensics](http://hh.diva-portal.org/smash/get/diva2:635743/FULLTEXT02.pdf)
 * [Favorites](https://www.xploreforensics.com/blog/internet-explorer-forensic-artifacts-analysis.html)
+* [Session Recovery](https://forensicswiki.xyz/wiki/index.php?title=Internet_Explorer#Recovery_store)
 * [Credential Manager](https://www.nirsoft.net/utils/credentials_file_view.html)
