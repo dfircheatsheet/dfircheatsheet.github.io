@@ -1,1 +1,1 @@
-<img src="/img/browser.png" alt="browser"/>
+<img src="./img/browser.png" alt="browser"/>
