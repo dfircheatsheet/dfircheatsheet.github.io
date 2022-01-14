@@ -4,3 +4,17 @@
 * https://static1.squarespace.com/static/552092d5e4b0661088167e5c/t/56b36b4d3c44d86cf33341ca/1454598990744/Windows+Splunk+Logging+Cheat+Sheet+v1.1.pdf
 * https://static1.squarespace.com/static/552092d5e4b0661088167e5c/t/578627e66b8f5b322df3ae5b/1468409832299/Windows+PowerShell+Logging+Cheat+Sheet+ver+June+2016+v2.pdf
 * https://static1.squarespace.com/static/552092d5e4b0661088167e5c/t/580596c2893fc021e944c5fe/1476761283602/Windows+Registry+Auditing+Cheat+Sheet+ver+Oct+2016.pdf
+
+<img src="./img/win0.png" alt="browser"/>
+==========================================================================================================
+<img src="./img/win1.png" alt="browser"/>
+==========================================================================================================
+<img src="./img/win2.png" alt="browser"/>
+==========================================================================================================
+<img src="./img/win3.png" alt="browser"/>
+==========================================================================================================
+<img src="./img/win4.png" alt="browser"/>
+==========================================================================================================
+<img src="./img/win5.png" alt="browser"/>
+==========================================================================================================
+<img src="./img/win6.png" alt="browser"/>
