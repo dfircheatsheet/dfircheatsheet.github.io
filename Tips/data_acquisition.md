@@ -4,3 +4,4 @@
 * Wipe &amp; validate your Destinations media
 * Do not rely on one tool
 * Understand every tool you are using
+* Follow [RFC3227](https://datatracker.ietf.org/doc/html/rfc3227#section-1.1). In case you violate it, you must have a good reason.
