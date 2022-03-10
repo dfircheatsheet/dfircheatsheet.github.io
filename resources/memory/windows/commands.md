@@ -4,4 +4,4 @@
 ### Rekall
    * [cmdscan - Extract command history by scanning for \_COMMAND_HISTORY](https://rekall.readthedocs.io/en/latest/plugins.html#cmdscan-cmdscan)
    * [consoles - scans for CONSOLE_INFORMATION.](https://rekall.readthedocs.io/en/latest/plugins.html#consoles-consoles)
-   * [boot_cmdline - Prints the kernel command line.](scans for CONSOLE_INFORMATION.)
+   * [boot_cmdline - Prints the kernel command line.](https://rekall.readthedocs.io/en/latest/plugins.html#boot-cmdline-darwinbootparameters)
