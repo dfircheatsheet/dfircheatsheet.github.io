@@ -5,5 +5,5 @@
 ## Analysis
 
 ### Volatility
-    * (https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#hibinfo)[hibinfo]:  reveals additional information stored in the hibernation file
-    * (https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#imagecopy)[imagecopy]: allows you to convert any hibernation file to a raw memory image
+    * [hibinfo](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#hibinfo):  reveals additional information stored in the hibernation file
+    * [imagecopy](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#imagecopy): allows you to convert any hibernation file to a raw memory image
