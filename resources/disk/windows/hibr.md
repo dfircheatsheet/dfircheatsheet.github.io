@@ -1,6 +1,6 @@
 ## Structure
 
-* https://forensicswiki.xyz/wiki/index.php?title=Hiberfil.sys
+* [Hiberfil.sys](https://forensicswiki.xyz/wiki/index.php?title=Hiberfil.sys)
 
 ## Analysis (for further analysis check “Memory -> Windows” section)
 
