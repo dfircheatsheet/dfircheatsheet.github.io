@@ -2,7 +2,7 @@
 
 * https://forensicswiki.xyz/wiki/index.php?title=Hiberfil.sys
 
-## Analysis
+## Analysis (for further analysis check “Memory -> Windows” section)
 
 ### Volatility
 * [hibinfo - reveals additional information stored in the hibernation file](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#hibinfo)
