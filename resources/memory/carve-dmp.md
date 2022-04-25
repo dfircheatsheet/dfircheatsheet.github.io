@@ -9,3 +9,9 @@
 ## Extract Event logs -> Refer to "Disk > Windows > Event logs" for further analysis.
 
 * [EVTXtract](https://github.com/williballenthin/EVTXtract)
+
+## Data-Stream Carve (Extract Emails, Files, packets, .etc)
+
+* [bulk-extractor](https://github.com/simsong/bulk_extractor)
+* [bulk-extractor Manual](https://digitalcorpora.s3.amazonaws.com/downloads/bulk_extractor/BEUsersManual.pdf)
+* [bulk-extractor GUI](https://github.com/simsong/BEViewer)
