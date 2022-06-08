@@ -7,3 +7,6 @@
    * `strings memory.dmp | grep -E "PROCESSOR_ARCHITECTURE=[A-Za-z0-9]+"`
 ### Others
    * [Identify memory images](https://gleeda.blogspot.com/2010/12/identifying-memory-images.html)
+
+## Notes
+   * Providing KDBG virtual offsets to volatility with '-g' will speed up the process.
