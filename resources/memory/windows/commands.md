@@ -6,3 +6,5 @@
    * [consoles - scans for CONSOLE_INFORMATION.](https://rekall.readthedocs.io/en/latest/plugins.html#consoles-consoles)
    * [consolescan - Extract command history by scanning for \_CONSOLE_INFORMATION](https://rekall.readthedocs.io/en/latest/plugins.html#consolescan-consolescan)
    * [boot_cmdline - Prints the kernel command line.](https://rekall.readthedocs.io/en/latest/plugins.html#boot-cmdline-darwinbootparameters)
+### Notes
+* Providing KDBG virtual offsets to volatility with '-g' will speed up the process.
