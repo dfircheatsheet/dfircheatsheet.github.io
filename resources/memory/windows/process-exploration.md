@@ -12,6 +12,7 @@
       * [psxview - Find hidden processes with various process listings](https://rekall.readthedocs.io/en/latest/plugins.html#psxview-windowspsxview)
 ## Process Structure
    ### [volatility - volshell](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#volshell)
+
       * ps() -> List processes
-      * dt("[_EPROCESS](https://web.archive.org/web/20210302232116/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/ps/eprocess/index.htm)", 0xvirtualadderss, space=addrspace) -> Expand the EPROCEES structure using virtual address
-      * dt("[_EPROCESS](https://web.archive.org/web/20210302232116/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/ps/eprocess/index.htm)", 0xphysicaladderss, space=addrspace) -> Expand the EPROCEES structure using physical address
+      * dt("_EPROCESS", 0xvirtualadderss, space=addrspace) -> Expand the EPROCEES structure using virtual address
+      * dt("_EPROCESS", 0xphysicaladderss, space=addrspace) -> Expand the EPROCEES structure using physical address
