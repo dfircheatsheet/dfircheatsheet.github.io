@@ -15,7 +15,6 @@
 <li>cc(pid=4) -&gt; <code>Change to another process</code></details></li>
 </ul>
 </details>
-<br>
 <details>
   <summary>EProcess structure analysis</summary>
 <ul>
@@ -24,7 +23,6 @@
 <li>dt(&quot;<a href="https://web.archive.org/web/20210302232116/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/ps/eprocess/index.htm">_EPROCESS</a>&quot;, 0xphysicaladderss, space=addrspace) -&gt; <code>Expand the EPROCEES structure using physical address</code></details></li>
 </ul>
 </details>
-<br>
 <details>
   <summary>PEB structure analysis</summary>
 <ul>
