@@ -10,7 +10,6 @@
 
 <details>
   <summary>Explore Processes</summary>
-  
 <ul>
 <li>ps() -&gt; <code>List processes</code></li>
 <li>cc(pid=4) -&gt; <code>Change to another process</code></details></li>
@@ -18,7 +17,6 @@
 </details>
 <details>
   <summary>EProcess structure analysis</summary>
-  
 <ul>
 <li>dt(process) -&gt; <code>list current process EPROCESS structure</code></li>
 <li>dt(&quot;<a href="https://web.archive.org/web/20210302232116/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/ps/eprocess/index.htm">_EPROCESS</a>&quot;, 0xvirtualadderss, space=addrspace) -&gt; <code>Expand the EPROCEES structure using virtual address</code></li>
@@ -27,15 +25,13 @@
 </details>
 <details>
   <summary>PEB structure analysis</summary>
-
 <ul>
 <li>dt(process.peb) -&gt; <code>list current process PEB structure</code></li>
 <li>dt(&quot;<a href="https://web.archive.org/web/20211009172637/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/api/pebteb/peb/index.htm">_PEB</a>&quot;, 0xvirtualadderss, space=addrspace) -&gt; <code>Expand the PEB structure using virtual address</code></li>
 <li>dt(&quot;<a href="https://web.archive.org/web/20211009172637/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/api/pebteb/peb/index.htm">_PEB</a>&quot;, 0xphysicaladderss, space=addrspace) -&gt; <code>Expand the PEB structure using physical address</code></li>
-<li><details>
-
+<li>
+<details>
   <summary>Important info in PEB structure</summary>
-
 <ul>
 <li>BeingDebugged -&gt; <code>some malicious programs set up a process and then connect a &quot;debugger&quot; to it</code></li>
 <li>OSMajorVersion &amp; OSMinorVersion -&gt; <code>correspond to the host operating system</code></li>
@@ -43,6 +39,7 @@
 <li>OSCSDVersion -&gt; <code>the service pack number multiplied by 0x100</code></li>
 <li>_RTL_USER_PROCESS_PARAMETERS -&gt; <code>The pointer is to the process parameters.</code></details></li>
 </ul>
+</details>
 </li>
 </ul>
 </details>
