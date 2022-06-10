@@ -12,7 +12,7 @@
   <summary>Explore Processes</summary>
 <ul>
 <li>ps() -&gt; <code>List processes</code></li>
-<li>cc(pid=4) -&gt; <code>Change to another process</code></details></li>
+<li>cc(pid=4) -&gt; <code>Change to another process</code></li>
 </ul>
 </details>
 <details>
