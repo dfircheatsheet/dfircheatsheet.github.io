@@ -28,6 +28,7 @@
   * dt("[_PEB](https://web.archive.org/web/20211009172637/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/api/pebteb/peb/index.htm)", 0xvirtualadderss, space=addrspace) -> ```Expand the PEB structure using virtual address```
   * dt("[_PEB](https://web.archive.org/web/20211009172637/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/api/pebteb/peb/index.htm)", 0xphysicaladderss, space=addrspace) -> ```Expand the PEB structure using physical address```
   * <details>
+  
       <summary>Important info in PEB structure</summary>
   
       * BeingDebugged -> ```some malicious programs set up a process and then connect a "debugger" to it```
