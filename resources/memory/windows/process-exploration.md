@@ -23,20 +23,29 @@
 </details>
 <details>
   <summary>PEB structure analysis</summary>
-  
-  * dt(process.peb) -> ```list current process PEB structure```
-  * dt("[_PEB](https://web.archive.org/web/20211009172637/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/api/pebteb/peb/index.htm)", 0xvirtualadderss, space=addrspace) -> ```Expand the PEB structure using virtual address```
-  * dt("[_PEB](https://web.archive.org/web/20211009172637/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/api/pebteb/peb/index.htm)", 0xphysicaladderss, space=addrspace) -> ```Expand the PEB structure using physical address```
-  * <details>
-  
-      <summary>Important info in PEB structure</summary>
-  
-      * BeingDebugged -> ```some malicious programs set up a process and then connect a "debugger" to it```
-      * OSMajorVersion & OSMinorVersion -> ```correspond to the host operating system```
-      * OSBuildNumber
-      * OSCSDVersion -> ```the service pack number multiplied by 0x100```
-      * _RTL_USER_PROCESS_PARAMETERS -> ```The pointer is to the process parameters.```
-    </details>
+<ul data-sourcepos="27:3-38:14" dir="auto">
+<li data-sourcepos="27:3-27:63">
+<p data-sourcepos="27:5-27:63" dir="auto">dt(process.peb) -&gt; <code>list current process PEB structure</code></p>
+</li>
+<li data-sourcepos="28:3-28:238">
+<p data-sourcepos="28:5-28:238" dir="auto">dt("<a href="https://web.archive.org/web/20211009172637/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/api/pebteb/peb/index.htm" rel="nofollow">_PEB</a>", 0xvirtualadderss, space=addrspace) -&gt; <code>Expand the PEB structure using virtual address</code></p>
+</li>
+<li data-sourcepos="29:3-29:240">
+<p data-sourcepos="29:5-29:240" dir="auto">dt("<a href="https://web.archive.org/web/20211009172637/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/api/pebteb/peb/index.htm" rel="nofollow">_PEB</a>", 0xphysicaladderss, space=addrspace) -&gt; <code>Expand the PEB structure using physical address</code></p>
+</li>
+<li data-sourcepos="30:3-38:14">
+<details>
+  <summary>Important info in PEB structure</summary>
+<ul data-sourcepos="33:7-37:87" dir="auto">
+<li data-sourcepos="33:7-33:107">BeingDebugged -&gt; <code>some malicious programs set up a process and then connect a "debugger" to it</code></li>
+<li data-sourcepos="34:7-34:88">OSMajorVersion &amp; OSMinorVersion -&gt; <code>correspond to the host operating system</code></li>
+<li data-sourcepos="35:7-35:21">OSBuildNumber</li>
+<li data-sourcepos="36:7-36:73">OSCSDVersion -&gt; <code>the service pack number multiplied by 0x100</code></li>
+<li data-sourcepos="37:7-37:87">_RTL_USER_PROCESS_PARAMETERS -&gt; <code>The pointer is to the process parameters.</code></li>
+</ul>
+</details>
+</li>
+</ul>
 </details>
 
 ## Rekall   
