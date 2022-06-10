@@ -20,7 +20,7 @@
 <ul>
 <li>dt(process) -&gt; <code>list current process EPROCESS structure</code></li>
 <li>dt(&quot;<a href="https://web.archive.org/web/20210302232116/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/ps/eprocess/index.htm">_EPROCESS</a>&quot;, 0xvirtualadderss, space=addrspace) -&gt; <code>Expand the EPROCEES structure using virtual address</code></li>
-<li>dt(&quot;<a href="https://web.archive.org/web/20210302232116/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/ps/eprocess/index.htm">_EPROCESS</a>&quot;, 0xphysicaladderss, space=addrspace) -&gt; <code>Expand the EPROCEES structure using physical address</code></details></li>
+<li>dt(&quot;<a href="https://web.archive.org/web/20210302232116/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/ps/eprocess/index.htm">_EPROCESS</a>&quot;, 0xphysicaladderss, space=addrspace) -&gt; <code>Expand the EPROCEES structure using physical address</code></li>
 </ul>
 </details>
 <details>
@@ -37,7 +37,7 @@
 <li>OSMajorVersion &amp; OSMinorVersion -&gt; <code>correspond to the host operating system</code></li>
 <li>OSBuildNumber</li>
 <li>OSCSDVersion -&gt; <code>the service pack number multiplied by 0x100</code></li>
-<li>_RTL_USER_PROCESS_PARAMETERS -&gt; <code>The pointer is to the process parameters.</code></details></li>
+<li>_RTL_USER_PROCESS_PARAMETERS -&gt; <code>The pointer is to the process parameters.</code></li>
 </ul>
 </details>
 </li>
