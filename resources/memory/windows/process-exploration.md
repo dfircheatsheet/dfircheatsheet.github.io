@@ -1,4 +1,4 @@
-## (Volatility - plugins](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference(
+## [Volatility - plugins](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference)
 <ul>
    <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#pslist">pslist - walks the doubly-linked list pointed to by PsActiveProcessHead</a></li>
    <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#pstree">pstree - print process tress</a></li>
