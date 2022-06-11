@@ -23,8 +23,8 @@
   <summary>EProcess structure analysis</summary>
 <ul>
 <li>dt(process) -&gt; <code>list current process EPROCESS structure</code></li>
-<li>dt(&quot;<a href="https://web.archive.org/web/20210302232116/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/ps/eprocess/index.htm">_EPROCESS</a>&quot;, 0xvirtualadderss, space=addrspace) -&gt; <code>Expand the EPROCEES structure using virtual address</code></li>
-<li>dt(&quot;<a href="https://web.archive.org/web/20210302232116/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/ps/eprocess/index.htm">_EPROCESS</a>&quot;, 0xphysicaladderss, space=addrspace) -&gt; <code>Expand the EPROCEES structure using physical address</code></li>
+<li>dt(&quot;<a href="https://web.archive.org/web/20210302232116/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/ps/eprocess/index.htm">_EPROCESS</a>&quot;, virtualadderss, space=addrspace) -&gt; <code>Expand the EPROCEES structure using virtual address</code></li>
+<li>dt(&quot;<a href="https://web.archive.org/web/20210302232116/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/ps/eprocess/index.htm">_EPROCESS</a>&quot;, physicaladderss, space=addrspace) -&gt; <code>Expand the EPROCEES structure using physical address</code></li>
 </ul>
 </details>
 </li>
@@ -33,8 +33,8 @@
   <summary>PEB structure analysis</summary>
 <ul>
 <li>dt(process.peb) -&gt; <code>list current process PEB structure</code></li>
-<li>dt(&quot;<a href="https://web.archive.org/web/20211009172637/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/api/pebteb/peb/index.htm">_PEB</a>&quot;, 0xvirtualadderss, space=addrspace) -&gt; <code>Expand the PEB structure using virtual address</code></li>
-<li>dt(&quot;<a href="https://web.archive.org/web/20211009172637/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/api/pebteb/peb/index.htm">_PEB</a>&quot;, 0xphysicaladderss, space=addrspace) -&gt; <code>Expand the PEB structure using physical address</code></li>
+<li>dt(&quot;<a href="https://web.archive.org/web/20211009172637/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/api/pebteb/peb/index.htm">_PEB</a>&quot;, virtualadderss, space=addrspace) -&gt; <code>Expand the PEB structure using virtual address</code></li>
+<li>dt(&quot;<a href="https://web.archive.org/web/20211009172637/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/api/pebteb/peb/index.htm">_PEB</a>&quot;, physicaladderss, space=addrspace) -&gt; <code>Expand the PEB structure using physical address</code></li>
 <li>
 <details>
   <summary>Important info in PEB structure</summary>
