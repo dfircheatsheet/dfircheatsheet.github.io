@@ -54,5 +54,5 @@
 ## Notes
 
 * Providing KDBG virtual offsets to volatility with '-g' will speed up the process.
-* Processes manually run by users -> Have Explorer as an ancestor
-* Processes run by SYSTEM are part of the operating system - > Have system as an ancestor
+* Processes manually run by users -> Have Explorer as an ancestor || Processes run by SYSTEM -> Have system as an ancestor
+* Process ID is divisble by 4 https://superuser.com/questions/1182187/why-is-system-pid-4-not-pid-1
