@@ -1,4 +1,4 @@
-## Volatility - plugins
+## (Volatility - plugins](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference(
 <ul>
    <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#pslist">pslist - walks the doubly-linked list pointed to by PsActiveProcessHead</a></li>
    <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#pstree">pstree - print process tress</a></li>
@@ -80,7 +80,7 @@
    </li>
 </ul>
 
-## Rekall   
+## [Rekall](https://rekall.readthedocs.io/en/latest/plugins.html)
 * [pslist - list processes using all methods by default.](https://rekall.readthedocs.io/en/latest/plugins.html#pslist-winpslist)
 * [pstree - walk the task_struct.children and task_struct.sibling members to print process tress.](https://rekall.readthedocs.io/en/latest/plugins.html#pstree-linpstree)
 * [psscan - Scan Physical memory for \_EPROCESS pool allocations.](https://rekall.readthedocs.io/en/latest/pluins.html#psscan-psscan)
