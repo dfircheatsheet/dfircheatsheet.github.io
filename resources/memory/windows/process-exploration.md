@@ -11,24 +11,20 @@
          <summary><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#handles">handles - display open handles in a process</a></summary>
          <ul>
             <li>
-               <details>
-                  <summary>Important Parameters</summary>
-                  <ul>
-                     <li>-p <pids, comma separated></li>
-                     <li>-P (use physical offsets)</li>
-                     <li>-t <types, comma separated></li>
-                     <li>-s Suppress results that are "less meaningful"</li>
-                  </ul>
-               </details>
+               Important Parameters
+               <ul>
+                  <li>-p (pids, comma separated)</li>
+                  <li>-P (use physical offsets)</li>
+                  <li>-t (types, comma separated)</li>
+                  <li>-s (suppress results that are "less meaningful")</li>
+               </ul>
             </li>
             <li>
-               <details>
-                  <summary>Investigative Notes</summary>
-                  <ul>
-                     <li>May help discover unknown relationships between processes via common use of identical handles</li>
-                     <li>For most investigations, -s should be used as a default</li>
-                  </ul>
-               </details>
+               Investigative Notes
+               <ul>
+                  <li>May help discover unknown relationships between processes via common use of identical handles</li>
+                  <li>For most investigations, -s should be used as a default</li>
+               </ul>
             </li>
          </ul>
       </details>
