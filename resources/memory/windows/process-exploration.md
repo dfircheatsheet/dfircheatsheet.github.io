@@ -76,6 +76,7 @@
 <li>Spelling mistakes: <code>Malware authors may not be native English speakers.</code></li>
 <li>Correct file locations: <code>Finding an executable starting from any uncommon directory is a sign of trouble.</code></li>
 <li>Valid command line arguments: <code>Processes are often launched with specific parameters.</code></li>
+<li><a href="https://digitalforensicsurvivalpodcast.com/2019/04/14/dfsp-165-windoes-core-processes/">Check Process Singletons: <code>Some processes should never have more than one copy in process list</code></a></li>
 </ul>
 </details>
 </li>
