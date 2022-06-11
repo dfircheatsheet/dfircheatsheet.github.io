@@ -8,7 +8,8 @@
 * [procdump - dump process executable](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#procdump)
 
 ## [Volatility - volshell](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#volshell)   
-
+<ul>
+<li>
 <details>
   <summary>Explore Processes</summary>
 <ul>
@@ -16,6 +17,8 @@
 <li>cc(pid=4) -&gt; <code>Change to another process</code></li>
 </ul>
 </details>
+</li>
+<li>
 <details>
   <summary>EProcess structure analysis</summary>
 <ul>
@@ -24,6 +27,8 @@
 <li>dt(&quot;<a href="https://web.archive.org/web/20210302232116/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/ps/eprocess/index.htm">_EPROCESS</a>&quot;, 0xphysicaladderss, space=addrspace) -&gt; <code>Expand the EPROCEES structure using physical address</code></li>
 </ul>
 </details>
+</li>
+<li>
 <details>
   <summary>PEB structure analysis</summary>
 <ul>
@@ -44,6 +49,8 @@
 </li>
 </ul>
 </details>
+</li>
+</ul>
 
 ## Rekall   
 
@@ -75,7 +82,7 @@
 <li>
 <details>
   <summary>Dealing with suspicious processes</summary>
-<ol type="1">
+<ol type="A">
 <li>Dump process executables</li>
 <li>Use strings to look for Indicators of Packing and Persistence</li>
 <li>Submit executables to online services as VirusTotal</li>
