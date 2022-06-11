@@ -4,7 +4,8 @@
 * [pstree - print process tress](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#pstree)
 * [psscan - enumerate processes using pool tag scanning](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#psscan)
 * [psdispscan - enumerates processes by scanning for DISPATCHER_HEADER](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#psdispscan)
-* [psxview - Detect hidden processes](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference-Mal#psxview)      
+* [psxview - Detect hidden processes](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference-Mal#psxview)
+* [procdump - dump process executable](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#procdump)
 
 ## [Volatility - volshell](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#volshell)   
 
@@ -49,9 +50,35 @@
 * [pslist - list processes using all methods by default.](https://rekall.readthedocs.io/en/latest/plugins.html#pslist-winpslist)
 * [pstree - walk the task_struct.children and task_struct.sibling members to print process tress.](https://rekall.readthedocs.io/en/latest/plugins.html#pstree-linpstree)
 * [psscan - Scan Physical memory for \_EPROCESS pool allocations.](https://rekall.readthedocs.io/en/latest/pluins.html#psscan-psscan)
-* [psxview - Find hidden processes with various process listings](https://rekall.readthedocs.io/en/latest/plugins.html#psxview-windowspsxview)      
+* [psxview - Find hidden processes with various process listings](https://rekall.readthedocs.io/en/latest/plugins.html#psxview-windowspsxview)
+* [procdump - dump process executables](https://rekall.readthedocs.io/en/latest/plugins.html#procdump-procexedump)
 
 ## Notes
 
-* Providing KDBG virtual offsets to volatility with '-g' will speed up the process.
-* Processes run by users -> Have Explorer as an ancestor & Processes run by SYSTEM -> Have system as an ancestor
+<ul>
+<li>Providing KDBG virtual offsets to volatility with '-g' will speed up the process.</li>
+<li><a href="https://www.fireeye.com/content/dam/fireeye-www/services/freeware/ug-redline.pdf">Use redline to get a quick insight on the memory dump</a>
+<li>
+<details>
+  <summary>Suspicious Processes Indicators</summary>
+<ul>
+<li>Processes run by users -> Have Explorer as an ancestor & Processes run by SYSTEM -> Have system as an ancestor
+<li>Valid Program Names: <code>Programmers choose human readable names. Lookout for random series of characters.</code>
+<li>Ending in .exe: <code>Legitimate programs have a valid extension. Malware often leaves a blank extension.</code>
+<li>More than one or two characters in the filename: <code>Legitimate programs have a name, not just an ID number.</code>
+<li>Spelling mistakes: <code>Malware authors may not be native English speakers.</code>
+<li>Correct file locations: <code>Finding an executable starting from any uncommon directory is a sign of trouble.</code>
+<li>Valid command line arguments: <code>Processes are often launched with specific parameters.</code>
+</ul>
+</details>
+<li>
+<details open="">
+  <summary>Dealing with suspicious processes</summary>
+<ol type="1">
+<li>Dump process executables
+<li>Use strings to look for Indicators of Packing and Persistence
+<li>Submit executables to online services as VirusTotal
+</ol>
+</details>
+</li>
+</ul>
