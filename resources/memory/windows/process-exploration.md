@@ -54,4 +54,4 @@
 ## Notes
 
 * Providing KDBG virtual offsets to volatility with '-g' will speed up the process.
-* Processes manually run by users -> Have Explorer as an ancestor | Processes run by SYSTEM -> Have system as an ancestor
+* Processes run by users -> Have Explorer as an ancestor & Processes run by SYSTEM -> Have system as an ancestor
