@@ -6,6 +6,7 @@
 * [psdispscan - enumerates processes by scanning for DISPATCHER_HEADER](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#psdispscan)
 * [psxview - Detect hidden processes](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference-Mal#psxview)
 * [procdump - dump process executable](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#procdump)
+* [handles - display open handles in a process](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#handles)
 
 ## [Volatility - volshell](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#volshell)   
 <ul>
@@ -59,6 +60,7 @@
 * [psscan - Scan Physical memory for \_EPROCESS pool allocations.](https://rekall.readthedocs.io/en/latest/pluins.html#psscan-psscan)
 * [psxview - Find hidden processes with various process listings](https://rekall.readthedocs.io/en/latest/plugins.html#psxview-windowspsxview)
 * [procdump - dump process executables](https://rekall.readthedocs.io/en/latest/plugins.html#procdump-procexedump)
+* [handles - print list of open handles to each process](https://rekall.readthedocs.io/en/latest/plugins.html#handles-handles)
 
 ## Notes
 
