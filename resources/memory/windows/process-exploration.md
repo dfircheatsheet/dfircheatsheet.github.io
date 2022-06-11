@@ -20,7 +20,7 @@
 </li>
 <li>
 <details>
-  <summary>EProcess structure analysis</summary>
+  <summary>EPROCESS structure analysis</summary>
 <ul>
 <li>dt(process) -&gt; <code>list current process EPROCESS structure</code></li>
 <li>dt(&quot;<a href="https://web.archive.org/web/20210302232116/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/ps/eprocess/index.htm">_EPROCESS</a>&quot;, virtualadderss, space=addrspace) -&gt; <code>Expand the EPROCEES structure using virtual address</code></li>
