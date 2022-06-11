@@ -82,7 +82,7 @@
 <li>
 <details>
   <summary>Dealing with suspicious processes</summary>
-<ol type="A">
+<ol>
 <li>Dump process executables</li>
 <li>Use strings to look for Indicators of Packing and Persistence</li>
 <li>Submit executables to online services as VirusTotal</li>
