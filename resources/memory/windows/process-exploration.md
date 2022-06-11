@@ -75,7 +75,7 @@
 <li>
 <details>
   <summary>Dealing with suspicious processes</summary>
-<ol>
+<ol type="1">
 <li>Dump process executables</li>
 <li>Use strings to look for Indicators of Packing and Persistence</li>
 <li>Submit executables to online services as VirusTotal</li>
