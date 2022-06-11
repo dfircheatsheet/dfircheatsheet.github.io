@@ -37,7 +37,7 @@
 <li>OSMajorVersion &amp; OSMinorVersion -&gt; <code>correspond to the host operating system</code></li>
 <li>OSBuildNumber</li>
 <li>OSCSDVersion -&gt; <code>the service pack number multiplied by 0x100</code></li>
-<li>_RTL_USER_PROCESS_PARAMETERS -&gt; <code>The pointer is to the process parameters.</code></li>
+<li><a href="https://www.nirsoft.net/kernel_struct/vista/RTL_USER_PROCESS_PARAMETERS.html">_RTL_USER_PROCESS_PARAMETERS</a> -&gt; <code>The pointer is to the process parameters.</code></li>
 </ul>
 </details>
 </li>
