@@ -57,28 +57,30 @@
 
 <ul>
 <li>Providing KDBG virtual offsets to volatility with '-g' will speed up the process.</li>
-<li><a href="https://www.fireeye.com/content/dam/fireeye-www/services/freeware/ug-redline.pdf">Use redline to get a quick insight on the memory dump</a>
+<li><a href="https://www.fireeye.com/content/dam/fireeye-www/services/freeware/ug-redline.pdf">Use redline to get a quick insight on the memory dump</a></li>
 <li>
 <details>
   <summary>Suspicious Processes Indicators</summary>
 <ul>
-<li>Processes run by users -> Have Explorer as an ancestor & Processes run by SYSTEM -> Have system as an ancestor
-<li>Valid Program Names: <code>Programmers choose human readable names. Lookout for random series of characters.</code>
-<li>Ending in .exe: <code>Legitimate programs have a valid extension. Malware often leaves a blank extension.</code>
-<li>More than one or two characters in the filename: <code>Legitimate programs have a name, not just an ID number.</code>
-<li>Spelling mistakes: <code>Malware authors may not be native English speakers.</code>
-<li>Correct file locations: <code>Finding an executable starting from any uncommon directory is a sign of trouble.</code>
-<li>Valid command line arguments: <code>Processes are often launched with specific parameters.</code>
+<li>Processes run by users -> Have Explorer as an ancestor & Processes run by SYSTEM -> Have system as an ancestor</li>
+<li>Valid Program Names: <code>Programmers choose human readable names. Lookout for random series of characters.</code></li>
+<li>Ending in .exe: <code>Legitimate programs have a valid extension. Malware often leaves a blank extension.</code></li>
+<li>More than one or two characters in the filename: <code>Legitimate programs have a name, not just an ID number.</code></li>
+<li>Spelling mistakes: <code>Malware authors may not be native English speakers.</code></li>
+<li>Correct file locations: <code>Finding an executable starting from any uncommon directory is a sign of trouble.</code></li>
+<li>Valid command line arguments: <code>Processes are often launched with specific parameters.</code></li>
 </ul>
 </details>
+</li>
 <li>
 <details open="">
   <summary>Dealing with suspicious processes</summary>
 <ol type="1">
-<li>Dump process executables
-<li>Use strings to look for Indicators of Packing and Persistence
-<li>Submit executables to online services as VirusTotal
+<li>Dump process executables</li>
+<li>Use strings to look for Indicators of Packing and Persistence</li>
+<li>Submit executables to online services as VirusTotal</li>
 </ol>
 </details>
+</li>
 </li>
 </ul>
