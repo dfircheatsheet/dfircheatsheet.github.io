@@ -13,10 +13,10 @@
             <li>
                Important Parameters
                <ul>
-                  <li>-p (pids, comma separated)</li>
-                  <li>-P (use physical offsets)</li>
-                  <li>-t (types, comma separated)</li>
-                  <li>-s (suppress results that are "less meaningful")</li>
+                  <li>-p: <code>pids, comma separated)</code></li>
+                  <li>-P: <code>use physical offsets)</code></li>
+                  <li>-t: <code>types, comma separated)</code></li>
+                  <li>-s: <code>suppress results that are "less meaningful"</code></li>
                </ul>
             </li>
             <li>
