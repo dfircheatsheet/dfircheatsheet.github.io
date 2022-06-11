@@ -75,12 +75,11 @@
 <li>
 <details open="">
   <summary>Dealing with suspicious processes</summary>
-<ol type="1">
+<ol>
 <li>Dump process executables</li>
 <li>Use strings to look for Indicators of Packing and Persistence</li>
 <li>Submit executables to online services as VirusTotal</li>
 </ol>
 </details>
-</li>
 </li>
 </ul>
