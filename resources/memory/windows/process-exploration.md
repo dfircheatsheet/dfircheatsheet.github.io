@@ -73,7 +73,7 @@
 </details>
 </li>
 <li>
-<details open="">
+<details">
   <summary>Dealing with suspicious processes</summary>
 <ol>
 <li>Dump process executables</li>
