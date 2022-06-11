@@ -90,6 +90,7 @@
 <li>Dump process executables</li>
 <li>Use strings to look for Indicators of Packing and Persistence</li>
 <li>Submit executables to online services as VirusTotal</li>
+<li>Check opened handles for this process</li>
 </ul>
 </details>
 </li>
