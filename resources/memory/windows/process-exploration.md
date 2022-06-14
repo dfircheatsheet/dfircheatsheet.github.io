@@ -29,6 +29,30 @@
          </ul>
       </details>
    </li>
+   <li>
+      <details>
+         <summary><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#enumfunc">enumfunc - enumerates imported and exported functions</a></summary>
+         <ul>
+            <li>
+               Important Parameters
+               <ul>
+                  <li>-s <code>Scan for objects</code></li>
+                  <li>-P <code>Show only process imports/exports</code></li>
+                  <li>-K <code>Show only kernel imports/exports</code></li>
+                  <li>-I <code>Show only imports</code></li>
+                  <li>-E <code>Show only exports</code></li>
+               </ul>
+            </li>
+            <li>
+               Investigative Notes
+               <ul>
+                  <li>Primarily useful for malware analysts</li>
+                  <li>Can be used for preliminary capability analysis</li>
+               </ul>
+            </li>
+         </ul>
+      </details>
+   </li>
 </ul>
 
 ## [Volatility - volshell](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#volshell)   
@@ -93,6 +117,7 @@
          <summary>Suspicious Processes Indicators</summary>
          <ul>
             <li>Processes run by users -> Have Explorer as an ancestor & Processes run by SYSTEM -> Have system as an ancestor</li>
+            <li>Look for irrelvant imports <code>network apis used by notepad process</code></li>
             <li>Valid Program Names: <code>Programmers choose human readable names. Lookout for random series of characters.</code></li>
             <li>Ending in .exe: <code>Legitimate programs have a valid extension. Malware often leaves a blank extension.</code></li>
             <li>More than one or two characters in the filename: <code>Legitimate programs have a name, not just an ID number.</code></li>
