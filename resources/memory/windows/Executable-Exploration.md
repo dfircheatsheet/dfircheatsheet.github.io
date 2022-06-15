@@ -27,6 +27,20 @@
 
 ## [Rekall](https://rekall.readthedocs.io/en/latest/plugins.html)
 
-
+<ul>
+   <li>
+      <details>
+         <summary><a href="https://rekall.readthedocs.io/en/latest/plugins.html#peinfo-peinfo">peinfo - Print information about a PE binary.</a></summary>
+         <ul>
+            <li>
+               Investigative Notes
+               <ul>
+                  <li>Can be used for preliminary capability analysis on memory-mapped or disk files</li>
+               </ul>
+            </li>
+         </ul>
+      </details>
+   </li>
+</ul>
 
 ## Notes
