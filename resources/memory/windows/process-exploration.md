@@ -53,6 +53,26 @@
          </ul>
       </details>
    </li>
+   <li>
+      <details>
+         <summary><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#dlllist">dlllist - display a process's loaded DLLs</a></summary>
+         <ul>
+            <li>
+               Important Parameters
+               <ul>
+                  <li>-p <code>pids, comma separated></code></li>
+               </ul>
+            </li>
+            <li>
+               Investigative Notes
+               <ul>
+                  <li>The DLLs loaded into a process can be used to infer functionality</li>
+                  <li>Networking DLLs in processes that don't normally use networking may indicate code injection</li>
+               </ul>
+            </li>
+         </ul>
+      </details>
+   </li>
 </ul>
 
 ## [Volatility - volshell](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#volshell)   
@@ -137,6 +157,7 @@
             <li>Use strings to look for Indicators of Packing and Persistence</li>
             <li>Submit executables to online services as VirusTotal</li>
             <li>Check opened handles for this process</li>
+            <li>Use impfuzzy to compare Import Table hash with known variants</li>
          </ul>
       </details>
    </li>
