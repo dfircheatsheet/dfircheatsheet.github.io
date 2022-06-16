@@ -90,7 +90,7 @@
       <details>
          <summary>EPROCESS structure analysis</summary>
          <ul>
-            <li>dt(process) -&gt; <code>list current process EPROCESS structure</code></li>
+            <li>dt(proc()) -&gt; <code>list current process EPROCESS structure</code></li>
             <li>dt(&quot;<a href="https://web.archive.org/web/20210302232116/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/ps/eprocess/index.htm">_EPROCESS</a>&quot;, virtualadderss, space=addrspace) -&gt; <code>Expand the EPROCEES structure using virtual address</code></li>
             <li>dt(&quot;<a href="https://web.archive.org/web/20210302232116/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/ntos/ps/eprocess/index.htm">_EPROCESS</a>&quot;, physicaladderss, space=addrspace) -&gt; <code>Expand the EPROCEES structure using physical address</code></li>
          </ul>
@@ -100,7 +100,7 @@
       <details>
          <summary>PEB structure analysis</summary>
          <ul>
-            <li>dt(process.peb) -&gt; <code>list current process PEB structure</code></li>
+            <li>dt(proc().Peb) -&gt; <code>list current process PEB structure</code></li>
             <li>dt(&quot;<a href="https://web.archive.org/web/20211009172637/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/api/pebteb/peb/index.htm">_PEB</a>&quot;, virtualadderss, space=addrspace) -&gt; <code>Expand the PEB structure using virtual address</code></li>
             <li>dt(&quot;<a href="https://web.archive.org/web/20211009172637/https://www.geoffchappell.com/studies/windows/km/ntoskrnl/inc/api/pebteb/peb/index.htm">_PEB</a>&quot;, physicaladderss, space=addrspace) -&gt; <code>Expand the PEB structure using physical address</code></li>
             <li>
@@ -146,6 +146,7 @@
             <li>Valid command line arguments: <code>Processes are often launched with specific parameters.</code></li>
             <li><a href="https://digitalforensicsurvivalpodcast.com/2019/04/14/dfsp-165-windoes-core-processes/">Check Process Singletons: <code>Some processes should never have more than one copy in process list</code></a></li>
             <li>Check parent/child relationships</li>
+            <li>Networking DLLs in processes that don't normally use networking may indicate code injection</li>
          </ul>
       </details>
    </li>
