@@ -23,6 +23,7 @@
          </ul>
       </details>
    </li>
+   <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#verinfo">impfuzzy - comparing the impfuzzy and imphash</a></summary></li>
 </ul>
 
 ## [Rekall](https://rekall.readthedocs.io/en/latest/plugins.html)
@@ -44,3 +45,13 @@
 </ul>
 
 ## Notes
+<ul>
+   <li>
+      <details>
+         <summary>Dealing with suspicious processes</summary>
+         <ul>
+            <li>Use impfuzzy to compare Import Table hash with known variants</li>
+         </ul>
+      </details>
+   </li>
+</ul>
