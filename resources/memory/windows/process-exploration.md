@@ -1,11 +1,17 @@
 ## [Volatility - plugins](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference)
 <ul>
-   <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#pslist">pslist - walks the doubly-linked list pointed to by PsActiveProcessHead</a></li>
-   <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#pstree">pstree - print process tress</a></li>
-   <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#psscan">psscan - enumerate processes using pool tag scanning</a></li>
-   <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#psdispscan">psdispscan - enumerates processes by scanning for DISPATCHER_HEADER</a></li>
-   <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference-Mal#psxview">psxview - Detect hidden processes</a></li>
-   <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#procdump">procdump - dump process executable</a></li>
+   <li>
+      <details>
+         <summary>Process Listing</summary>
+         <ul>
+            <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#pslist">pslist - walks the doubly-linked list pointed to by PsActiveProcessHead</a></li>
+            <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#pstree">pstree - print process tress</a></li>
+            <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#psscan">psscan - enumerate processes using pool tag scanning</a></li>
+            <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#psdispscan">psdispscan - enumerates processes by scanning for DISPATCHER_HEADER</a></li>
+            <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference-Mal#psxview">psxview - Detect hidden processes</a></li>
+         </ul>
+      </details>
+   </li>
    <li>
       <details>
          <summary><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#handles">handles - display open handles in a process</a></summary>
@@ -73,6 +79,8 @@
          </ul>
       </details>
    </li>
+   <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#procdump">procdump - dump process executable</a></li>
+   <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#verinfo">impfuzzy - comparing the impfuzzy and imphash</a></li>
 </ul>
 
 ## [Volatility - volshell](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#volshell)   
@@ -111,7 +119,8 @@
                      <li>OSMajorVersion &amp; OSMinorVersion -&gt; <code>correspond to the host operating system</code></li>
                      <li>OSBuildNumber</li>
                      <li>OSCSDVersion -&gt; <code>the service pack number multiplied by 0x100</code></li>
-                     <li><a href="https://www.nirsoft.net/kernel_struct/vista/RTL_USER_PROCESS_PARAMETERS.html">_RTL_USER_PROCESS_PARAMETERS</a> -&gt; <code>The pointer is to the process parameters.</code></li>
+                     <li><a href="https://www.nirsoft.net/kernel_struct/vista/RTL_USER_PROCESS_PARAMETERS.html">ProcessParameters</a> -&gt; <code>The pointer is to the process parameters.</code></li>
+                     <li><a href="https://www.nirsoft.net/kernel_struct/vista/PEB_LDR_DATA.html">Ldr </a>-> <code>Contains information about the loaded modules for the process.</code></li>
                   </ul>
                </details>
             </li>
@@ -148,6 +157,7 @@
             <li><a href="https://digitalforensicsurvivalpodcast.com/2019/04/14/dfsp-165-windoes-core-processes/">Check Process Singletons: <code>Some processes should never have more than one copy in process list</code></a></li>
             <li>Check parent/child relationships</li>
             <li>Networking DLLs in processes that don't normally use networking may indicate code injection</li>
+            <li>Use impfuzzy to compare Import Table hash with known variants</li>
          </ul>
       </details>
    </li>
