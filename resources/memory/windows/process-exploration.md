@@ -178,7 +178,6 @@
             <li>Use strings to look for Indicators of Packing and Persistence</li>
             <li>Submit executables to online services as VirusTotal</li>
             <li>Check opened handles for this process</li>
-            <li>Use impfuzzy to compare Import Table hash with known variants</li>
          </ul>
       </details>
    </li>
