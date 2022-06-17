@@ -127,6 +127,7 @@
 * [psxview - Find hidden processes with various process listings](https://rekall.readthedocs.io/en/latest/plugins.html#psxview-windowspsxview)
 * [procdump - dump process executables](https://rekall.readthedocs.io/en/latest/plugins.html#procdump-procexedump)
 * [handles - print list of open handles to each process](https://rekall.readthedocs.io/en/latest/plugins.html#handles-handles)
+* [dlllist - display a process's loaded DLLs](https://rekall.readthedocs.io/en/latest/plugins.html#dlllist-windlllist)
 
 ## Notes
 <ul>
