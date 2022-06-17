@@ -130,13 +130,22 @@
 </ul>
 
 ## [Rekall](https://rekall.readthedocs.io/en/latest/plugins.html)
-* [pslist - list processes using all methods by default.](https://rekall.readthedocs.io/en/latest/plugins.html#pslist-winpslist)
-* [pstree - walk the task_struct.children and task_struct.sibling members to print process tress.](https://rekall.readthedocs.io/en/latest/plugins.html#pstree-linpstree)
-* [psscan - Scan Physical memory for \_EPROCESS pool allocations.](https://rekall.readthedocs.io/en/latest/pluins.html#psscan-psscan)
-* [psxview - Find hidden processes with various process listings](https://rekall.readthedocs.io/en/latest/plugins.html#psxview-windowspsxview)
-* [procdump - dump process executables](https://rekall.readthedocs.io/en/latest/plugins.html#procdump-procexedump)
-* [handles - print list of open handles to each process](https://rekall.readthedocs.io/en/latest/plugins.html#handles-handles)
-* [dlllist - display a process's loaded DLLs](https://rekall.readthedocs.io/en/latest/plugins.html#dlllist-windlllist)
+<ul>
+   <li>
+      <details>
+         <summary>Process Listing</summary>
+         <ul>
+            <li><a href="https://rekall.readthedocs.io/en/latest/plugins.html#pslist-winpslist">pslist - list processes using all methods by default.</a></li>
+            <li><a href="https://rekall.readthedocs.io/en/latest/plugins.html#pstree-linpstree">pstree - walk the task_struct.children and task_struct.sibling members to print process tress.</a></li>
+            <li><a href="https://rekall.readthedocs.io/en/latest/pluins.html#psscan-psscan">psscan - Scan Physical memory for \_EPROCESS pool allocations.</a></li>
+            <li><a href="https://rekall.readthedocs.io/en/latest/plugins.html#psxview-windowspsxview">psxview - Find hidden processes with various process listings</a></li>
+         </ul>
+      </details>
+   </li>
+   <li><a href="https://rekall.readthedocs.io/en/latest/plugins.html#handles-handles">handles - print list of open handles to each process</a></li>
+   <li><a href="https://rekall.readthedocs.io/en/latest/plugins.html#dlllist-windlllist">dlllist - display a process's loaded DLLs</a></li>
+   <li><a href="https://rekall.readthedocs.io/en/latest/plugins.html#procdump-procexedump">procdump - dump process executables</a></li>
+</ul>
 
 ## Notes
 <ul>
