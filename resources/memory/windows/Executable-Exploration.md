@@ -74,13 +74,6 @@
       <details>
          <summary>Dealing with suspicious DLL/EXE</summary>
          <ul>
-         </ul>
-      </details>
-   </li>
-   <li>
-      <details>
-         <summary>Dealing with suspicious DLL/EXE</summary>
-         <ul>
             <li>Dump DLL/EXE</li>
             <li>Use strings to look for Indicators of Packing and Persistence</li>
             <li>Submit DLL/EXE to online services as VirusTotal</li>
