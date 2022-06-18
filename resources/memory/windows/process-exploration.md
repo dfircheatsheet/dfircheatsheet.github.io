@@ -1,5 +1,4 @@
-<ul>
-<li>
+<style>details summary > * { display: inline; }</style>
 <details>
    <summary>
       <h2>
@@ -102,8 +101,6 @@
       <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#verinfo">impfuzzy - comparing the impfuzzy and imphash</a></li>
    </ul>
 </details>
-</li>
-<li>
 <details>
    <summary>
       <h2>
@@ -155,8 +152,6 @@
       </li>
    </ul>
 </details>
-</li>
-<li>
 <details>
    <summary>
       <h2>
@@ -181,8 +176,6 @@
       <li><a href="https://rekall.readthedocs.io/en/latest/plugins.html#vad-vad">vad - dump of the VAD.</a></li>
    </ul>
 </details>
-</li>
-<li>
 <h2>
    Notes
 </h2>
@@ -217,6 +210,4 @@
          </ul>
       </details>
    </li>
-</ul>
-</li>
 </ul>
