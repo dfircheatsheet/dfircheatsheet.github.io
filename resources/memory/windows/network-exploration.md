@@ -1,5 +1,5 @@
 <details>
-	<summary style="font-size:1.5em;margin-top:0.83em;margin-bottom:0.83em;margin-left:0;margin-right:0;font-weight:bold;">Bulk-Extractor<a href="https://github.com/simsong/bulk_extractor">Scanners</a></summary>
+	<summary style="font-size:1.5em;margin-top:0.83em;margin-bottom:0.83em;margin-left:0;margin-right:0;font-weight:bold;">Bulk-Extractor - <a href="https://github.com/simsong/bulk_extractor">Scanners</a></summary>
 	<ul>
 		<li><a href="https://isc.sans.edu/forums/diary/Extracting+pcap+from+memory/20639/">Extract pcap from Memory Dumps</a></li>
 		<li>bulk_extractor -x all -e email <code>Look for emails</code></li>
