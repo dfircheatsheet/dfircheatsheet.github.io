@@ -46,3 +46,9 @@
 ## [Rekall](https://rekall.readthedocs.io/en/latest/plugins.html)
 * [filescan - Scan Physical memory for _FILE pool allocations](https://rekall.readthedocs.io/en/latest/plugins.html#filescan-filescan)
 * [dumpfiles - dump memory mapped files](https://rekall.readthedocs.io/en/latest/plugins.html#dumpfiles-dumpfiles)
+
+## Notes
+<ul>
+   <li>Providing KDBG virtual offsets to volatility with '-g' will speed up the process.</li>
+   <li><a href="https://www.fireeye.com/content/dam/fireeye-www/services/freeware/ug-redline.pdf">Use redline to get a quick insight on the memory dump</a></li>
+</ul>
