@@ -87,6 +87,8 @@
 
 ## Notes
 <ul>
+   <li>Providing KDBG virtual offsets to volatility with '-g' will speed up the process.</li>
+   <li><a href="https://www.fireeye.com/content/dam/fireeye-www/services/freeware/ug-redline.pdf">Use redline to get a quick insight on the memory dump</a></li>
    <li>
       <details>
          <summary>Suspicious Network Artifacts</summary>
