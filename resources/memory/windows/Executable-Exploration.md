@@ -1,7 +1,6 @@
 <details>
-	<summary>
-		<h2 dir="auto"><a id="user-content-volatility---plugins" class="anchor" aria-hidden="true" href="#volatility---plugins"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Volatility - <a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference">plugins</a></h2></summary>
-	<ul dir="auto">
+	<summary style="font-size:1.5em;margin-top:0.83em;margin-bottom:0.83em;margin-left:0;margin-right:0;font-weight:bold;"> Volatility - <a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference">plugins</a></summary>
+	<ul>
 		<li>
 			<details>
 				<summary><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#verinfo">verinfo - display the version information embedded in PE files</a></summary>
@@ -48,13 +47,12 @@
 	</ul>
 </details>
 <details>
-	<summary>
-		<h2 dir="auto"><a id="user-content-rekall" class="anchor" aria-hidden="true" href="#rekall"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Rekall - <a href="https://rekall.readthedocs.io/en/latest/plugins.html" rel="nofollow">plugins</a></h2></summary>
-	<ul dir="auto">
+	<summary style="font-size:1.5em;margin-top:0.83em;margin-bottom:0.83em;margin-left:0;margin-right:0;font-weight:bold;"> Rekall - <a href="https://rekall.readthedocs.io/en/latest/plugins.html">plugins</a></summary>
+	<ul>
 		<li>
 			<details>
 				<summary><a href="https://rekall.readthedocs.io/en/latest/plugins.html#peinfo-peinfo" rel="nofollow">peinfo - Print information about a PE binary.</a></summary>
-				<ul dir="auto">
+				<ul>
 					<li> Investigative Notes
 						<ul dir="auto">
 							<li>Can be used for preliminary capability analysis on memory-mapped or disk files</li>
@@ -65,7 +63,7 @@
 		</li>
 	</ul>
 </details>
-<h2 dir="auto"><a id="user-content-notes" class="anchor" aria-hidden="true" href="#notes"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Notes</h2>
+<h2>Notes</h2>
 <ul dir="auto">
 	<li>Providing KDBG virtual offsets to volatility with '-g' will speed up the process.</li>
 	<li><a href="https://www.fireeye.com/content/dam/fireeye-www/services/freeware/ug-redline.pdf" rel="nofollow">Use redline to get a quick insight on the memory dump</a></li>
