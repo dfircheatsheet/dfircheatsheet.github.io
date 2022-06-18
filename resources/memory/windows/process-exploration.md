@@ -79,6 +79,18 @@
          </ul>
       </details>
    </li>
+   <li>
+      <details>
+         <summary><a href="https://icegrave0391.github.io/2020/03/09/memfor-7/#gt-Virtual-Address-Descriptors">VADs Exploration</a></summary>
+         <ul>
+            <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#vadwalk">vadwalk - Display all VADs in list form</a></li>
+            <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#vadtree">vadtree - Display all VADs in tree form</a></li>
+            <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#vadlist">vadlist - List short details for each VAD</a></li>
+            <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#vadinfo">vadinfo - Display detailed VAD information</a></li>
+            <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#vaddump">vaddump - Copy frames from VADs to the disk</a></li>
+         </ul>
+      </details>
+   </li>
    <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#procdump">procdump - dump process executable</a></li>
    <li><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#verinfo">impfuzzy - comparing the impfuzzy and imphash</a></li>
 </ul>
@@ -145,6 +157,7 @@
    <li><a href="https://rekall.readthedocs.io/en/latest/plugins.html#handles-handles">handles - print list of open handles to each process</a></li>
    <li><a href="https://rekall.readthedocs.io/en/latest/plugins.html#dlllist-windlllist">dlllist - display a process's loaded DLLs</a></li>
    <li><a href="https://rekall.readthedocs.io/en/latest/plugins.html#procdump-procexedump">procdump - dump process executables</a></li>
+   <li><a href="https://rekall.readthedocs.io/en/latest/plugins.html#vad-vad">vad - dump of the VAD.</a></li>
 </ul>
 
 ## Notes
