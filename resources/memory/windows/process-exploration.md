@@ -155,7 +155,7 @@
       <details>
          <summary>Suspicious Processes Indicators</summary>
          <ul>
-            <li>Processes run by users -> Have Explorer as an ancestor & Processes run by SYSTEM -> Have system as an ancestor</li>
+            <li>Check parent/child relationships <code>Processes run by users -> Have Explorer as an ancestor & Processes run by SYSTEM -> Have system as an ancestor</code></li>
             <li>Look for irrelvant imports <code>network apis used by notepad process</code></li>
             <li>Valid Program Names: <code>Programmers choose human readable names. Lookout for random series of characters.</code></li>
             <li>Ending in .exe: <code>Legitimate programs have a valid extension. Malware often leaves a blank extension.</code></li>
@@ -164,7 +164,6 @@
             <li>Correct file locations: <code>Finding an executable starting from any uncommon directory is a sign of trouble.</code></li>
             <li>Valid command line arguments: <code>Processes are often launched with specific parameters.</code></li>
             <li><a href="https://digitalforensicsurvivalpodcast.com/2019/04/14/dfsp-165-windoes-core-processes/">Check Process Singletons: <code>Some processes should never have more than one copy in process list</code></a></li>
-            <li>Check parent/child relationships</li>
             <li>Use impfuzzy to compare Import Table hash with known variants</li>
          </ul>
       </details>
