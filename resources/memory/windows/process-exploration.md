@@ -181,6 +181,7 @@
       <li><a href="https://rekall.readthedocs.io/en/latest/plugins.html#vad-vad">vad - dump of the VAD.</a></li>
    </ul>
 </details>
+</li>
 <li>
 <h2>
    Notes
