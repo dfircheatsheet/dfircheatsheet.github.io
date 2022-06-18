@@ -1,5 +1,5 @@
 <details>
-   <summary style="display:inline;">
+   <summary style="display:inline-block;">
       <h2>
          Volatility - <a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference">plugins</a>
       </h2>
