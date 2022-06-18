@@ -1,5 +1,5 @@
 <details>
-   <summary style="font-size:1.5em;font-weight:bolder;">
+   <summary style="font-size:1.5em;margin-top:0.83em;margin-bottom:0.83em;margin-left:0;margin-right:0;font-weight:bold;">
          Volatility - <a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference">plugins</a>
    </summary>
    <ul>
@@ -99,7 +99,7 @@
    </ul>
 </details>
 <details>
-   <summary style="font-size:1.5em;font-weight:bolder;">
+   <summary style="font-size:1.5em;margin-top:0.83em;margin-bottom:0.83em;margin-left:0;margin-right:0;font-weight:bold;">
          Volatility - <a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#volshell">volshell</a>
    </summary>
    <ul>
@@ -148,7 +148,7 @@
    </ul>
 </details>
 <details>
-   <summary style="font-size:1.5em;font-weight:bolder;">
+   <summary style="font-size:1.5em;margin-top:0.83em;margin-bottom:0.83em;margin-left:0;margin-right:0;font-weight:bold;">
          Rekall - <a href="https://rekall.readthedocs.io/en/latest/plugins.html" rel="nofollow">plugins</a>
    </summary>
    <ul>
