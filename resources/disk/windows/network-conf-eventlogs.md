@@ -1,4 +1,4 @@
-### <a href="https://forensicswiki.xyz/wiki/index.php?title=Windows_XML_Event_Log_(EVTX)">Windows Event Logs</a>
+### <a href="https://dfircheatsheet.github.io/resources/disk/windows/evt-logs">Windows Event Logs</a>
    * <a href="https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=11000">11000 - Wireless network association started</a>
    * <a href="https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=8001">8001 - Successful connection to wireless network</a>
    * <a href="https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=8002">8002 - Failed connection to wireless network</a>
